@@ -1,0 +1,2121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/FPS/Animation/Controllers/HoverBot_AnimationController.controller
+    - Assets/FPS/Animation/Controllers/Turret_AnimationController.controller
+    - Assets/FPS/Animation/Masks/HoverBot.mask
+    - Assets/FPS/Animation/Masks/Turret.mask
+    - Assets/FPS/Art/Shaders/ProjectorMultiply.shader
+    - Assets/FPS/Art/Textures/Backgrounds/Fantasy Skybox FREE/Readme.txt
+    - Assets/FPS/Audio/MainAudioMixer.mixer
+    - Assets/FPS/FPSMicrogame_README.txt
+    - Assets/FPS/Prefabs/Enemies/Enemy_HoverBot.prefab
+    - Assets/FPS/Prefabs/Enemies/Enemy_Turret.prefab
+    - Assets/FPS/Prefabs/PBObjects/Signs/Diamond_Sign.obj
+    - Assets/FPS/Prefabs/PBObjects/Signs/Pyramid_Sign.obj
+    - Assets/FPS/Prefabs/PBObjects/Signs/Triangle_Sign.obj
+    - Assets/FPS/Prefabs/Pickups/Loot_Health.prefab
+    - Assets/FPS/Prefabs/Pickups/Pickup_Health.prefab
+    - Assets/FPS/Prefabs/RootObjects/Altar.mtl
+    - Assets/FPS/Prefabs/RootObjects/Basic_Floor.mtl
+    - Assets/FPS/Prefabs/RootObjects/Floor_HalfIndented.mtl
+    - Assets/FPS/Prefabs/RootObjects/Floor_Indented.mtl
+    - Assets/FPS/Prefabs/RootObjects/OBJAltar.obj
+    - Assets/FPS/Prefabs/RootObjects/OBJBasic_Floor.obj
+    - Assets/FPS/Prefabs/RootObjects/OBJDun_BigDoor.obj
+    - Assets/FPS/Prefabs/RootObjects/OBJFloor_HalfIndented.obj
+    - Assets/FPS/Prefabs/RootObjects/OBJFloor_Indented.obj
+    - Assets/FPS/Prefabs/RootObjects/OBJRamp_3m.obj
+    - Assets/FPS/Prefabs/RootObjects/OBJRamp_4m.obj
+    - Assets/FPS/Prefabs/RootObjects/OBJRamp_8m.obj
+    - Assets/FPS/Prefabs/RootObjects/OBJWall_1m.obj
+    - Assets/FPS/Prefabs/RootObjects/OBJWall_4m.obj
+    - Assets/FPS/Prefabs/RootObjects/OBJWall_Door.obj
+    - Assets/FPS/Prefabs/RootObjects/OBJWall_DoorLarge.obj
+    - Assets/FPS/Prefabs/RootObjects/OBJWall_Window.obj
+    - Assets/FPS/Prefabs/RootObjects/PBDun_BigDoor.mtl
+    - Assets/FPS/Prefabs/RootObjects/PBRamp_4m.mtl
+    - Assets/FPS/Prefabs/RootObjects/Ramp_3m.mtl
+    - Assets/FPS/Prefabs/RootObjects/Ramp_4m.mtl
+    - Assets/FPS/Prefabs/RootObjects/Ramp_8m.mtl
+    - Assets/FPS/Prefabs/RootObjects/Wall_1m.mtl
+    - Assets/FPS/Prefabs/RootObjects/Wall_4m.mtl
+    - Assets/FPS/Prefabs/RootObjects/Wall_Door.mtl
+    - Assets/FPS/Prefabs/RootObjects/Wall_DoorLarge.mtl
+    - Assets/FPS/Prefabs/RootObjects/Wall_Window.mtl
+    - Assets/FPS/Scenes/MainScene.unity
+    - Assets/FPS/Scenes/MainSceneSettings.lighting
+    - Assets/FPS/Scripts/AI/DetectionModule.cs
+    - Assets/FPS/Scripts/AI/EnemyController.cs
+    - Assets/FPS/Scripts/AI/EnemyManager.cs
+    - Assets/FPS/Scripts/AI/EnemyMobile.cs
+    - Assets/FPS/Scripts/AI/EnemyTurret.cs
+    - Assets/FPS/Scripts/AI/FollowPlayer.cs
+    - Assets/FPS/Scripts/AI/NavigationModule.cs
+    - Assets/FPS/Scripts/AI/PatrolPath.cs
+    - Assets/FPS/Scripts/AI/fps.AI.asmdef
+    - Assets/FPS/Scripts/Editor/MiniProfiler.cs
+    - Assets/FPS/Scripts/Editor/PrefabReplacerEditor.cs
+    - Assets/FPS/Scripts/Editor/ShaderBuildStripping.cs
+    - Assets/FPS/Scripts/Editor/UITableEditor.cs
+    - Assets/FPS/Scripts/Editor/fps.Editor.asmdef
+    - Assets/FPS/Scripts/Game/Actor.cs
+    - Assets/FPS/Scripts/Game/AudioUtility.cs
+    - Assets/FPS/Scripts/Game/ConstantRotation.cs
+    - Assets/FPS/Scripts/Game/DebugUtility.cs
+    - Assets/FPS/Scripts/Game/Events.cs
+    - Assets/FPS/Scripts/Game/GameConstants.cs
+    - Assets/FPS/Scripts/Game/IgnoreHeatMap.cs
+    - Assets/FPS/Scripts/Game/IgnoreHitDetection.cs
+    - Assets/FPS/Scripts/Game/Managers/ActorsManager.cs
+    - Assets/FPS/Scripts/Game/Managers/AudioManager.cs
+    - Assets/FPS/Scripts/Game/Managers/EventManager.cs
+    - Assets/FPS/Scripts/Game/Managers/GameFlowManager.cs
+    - Assets/FPS/Scripts/Game/Managers/ObjectiveManager.cs
+    - Assets/FPS/Scripts/Game/MeshCombineUtility.cs
+    - Assets/FPS/Scripts/Game/MeshCombiner.cs
+    - Assets/FPS/Scripts/Game/MinMaxParameters.cs
+    - Assets/FPS/Scripts/Game/PrefabReplacer.cs
+    - Assets/FPS/Scripts/Game/PrefabReplacerOnInstance.cs
+    - Assets/FPS/Scripts/Game/Shared/DamageArea.cs
+    - Assets/FPS/Scripts/Game/Shared/Damageable.cs
+    - Assets/FPS/Scripts/Game/Shared/Destructable.cs
+    - Assets/FPS/Scripts/Game/Shared/Health.cs
+    - Assets/FPS/Scripts/Game/Shared/Objective.cs
+    - Assets/FPS/Scripts/Game/Shared/ProjectileBase.cs
+    - Assets/FPS/Scripts/Game/Shared/WeaponController.cs
+    - Assets/FPS/Scripts/Game/TimedSelfDestruct.cs
+    - Assets/FPS/Scripts/Game/fps.Game.asmdef
+    - Assets/FPS/Scripts/Gameplay/AmmoPickup.cs
+    - Assets/FPS/Scripts/Gameplay/ChargedProjectileEffectsHandler.cs
+    - Assets/FPS/Scripts/Gameplay/ChargedWeaponEffectsHandler.cs
+    - Assets/FPS/Scripts/Gameplay/HealthPickup.cs
+    - Assets/FPS/Scripts/Gameplay/Jetpack.cs
+    - Assets/FPS/Scripts/Gameplay/JetpackPickup.cs
+    - Assets/FPS/Scripts/Gameplay/Managers/PlayerInputHandler.cs
+    - Assets/FPS/Scripts/Gameplay/Managers/PlayerWeaponsManager.cs
+    - Assets/FPS/Scripts/Gameplay/Objectives/ObjectiveKillEnemies.cs
+    - Assets/FPS/Scripts/Gameplay/Objectives/ObjectivePickupItem.cs
+    - Assets/FPS/Scripts/Gameplay/Objectives/ObjectiveReachPoint.cs
+    - Assets/FPS/Scripts/Gameplay/OverheatBehavior.cs
+    - Assets/FPS/Scripts/Gameplay/Pickup.cs
+    - Assets/FPS/Scripts/Gameplay/PlayerCharacterController.cs
+    - Assets/FPS/Scripts/Gameplay/PositionBobbing.cs
+    - Assets/FPS/Scripts/Gameplay/ProjectileChargeParameters.cs
+    - Assets/FPS/Scripts/Gameplay/ProjectileStandard.cs
+    - Assets/FPS/Scripts/Gameplay/TeleportPlayer.cs
+    - Assets/FPS/Scripts/Gameplay/WeaponFuelCellHandler.cs
+    - Assets/FPS/Scripts/Gameplay/WeaponPickup.cs
+    - Assets/FPS/Scripts/Gameplay/fps.Gameplay.asmdef
+    - Assets/FPS/Scripts/UI/AmmoCounter.cs
+    - Assets/FPS/Scripts/UI/Compass.cs
+    - Assets/FPS/Scripts/UI/CompassElement.cs
+    - Assets/FPS/Scripts/UI/CompassMarker.cs
+    - Assets/FPS/Scripts/UI/CrosshairManager.cs
+    - Assets/FPS/Scripts/UI/DisplayMessage.cs
+    - Assets/FPS/Scripts/UI/DisplayMessageManager.cs
+    - Assets/FPS/Scripts/UI/EnemyCounter.cs
+    - Assets/FPS/Scripts/UI/FeedbackFlashHUD.cs
+    - Assets/FPS/Scripts/UI/FillBarColorChange.cs
+    - Assets/FPS/Scripts/UI/FramerateCounter.cs
+    - Assets/FPS/Scripts/UI/InGameMenuManager.cs
+    - Assets/FPS/Scripts/UI/JetpackCounter.cs
+    - Assets/FPS/Scripts/UI/LoadSceneButton.cs
+    - Assets/FPS/Scripts/UI/MenuNavigation.cs
+    - Assets/FPS/Scripts/UI/NotificationHUDManager.cs
+    - Assets/FPS/Scripts/UI/NotificationToast.cs
+    - Assets/FPS/Scripts/UI/ObjectiveHUDManager.cs
+    - Assets/FPS/Scripts/UI/ObjectiveToast.cs
+    - Assets/FPS/Scripts/UI/PlayerHealthBar.cs
+    - Assets/FPS/Scripts/UI/StanceHUD.cs
+    - Assets/FPS/Scripts/UI/TakeScreenshot.cs
+    - Assets/FPS/Scripts/UI/ToggleGameObjectButton.cs
+    - Assets/FPS/Scripts/UI/UITable.cs
+    - Assets/FPS/Scripts/UI/WeaponHUDManager.cs
+    - Assets/FPS/Scripts/UI/WorldspaceHealthBar.cs
+    - Assets/FPS/Scripts/UI/fps.UI.asmdef
+    - Assets/FPS/Tutorials/AddARoom/RoomAssetLayout.wlt
+    - Assets/FPS/Tutorials/AddEnemyBot/EnemyPrefabLayout.wlt
+    - Assets/FPS/Tutorials/BuildAndPublish/Criteria/PublishCriteria.cs
+    - Assets/FPS/Tutorials/BuildAndPublish/Criteria/Unity.Microgame.Tutorials.asmdef
+    - Assets/FPS/Tutorials/EditColors/LevelMaterialLayout.wlt
+    - Assets/FPS/Tutorials/TutorialCallbacks.cs
+    - Assets/FPS/Tutorials/TutorialLayout.wlt
+    - Assets/FPS/Tutorials/Unity.FPS.Tutorials.asmdef
+    - Assets/Free_SpeedTrees.meta
+    - Assets/Free_SpeedTrees/BroadleafBark.tga
+    - Assets/Free_SpeedTrees/BroadleafBark.tga.meta
+    - Assets/Free_SpeedTrees/BroadleafBark_Normal.tga
+    - Assets/Free_SpeedTrees/BroadleafBark_Normal.tga.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/Billboard.mat
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/Billboard.mat.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD0.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD0/Branches_0.mat
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD0/Branches_0.mat.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD0/Branches_1.mat
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD0/Branches_1.mat.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD0/FacingLeaves_4.mat
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD0/FacingLeaves_4.mat.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD0/Fronds_2.mat
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD0/Fronds_2.mat.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD0/Leaves_3.mat
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD0/Leaves_3.mat.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD1.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD1/Branches_0.mat
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD1/Branches_0.mat.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD1/Branches_1.mat
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD1/Branches_1.mat.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD1/FacingLeaves_4.mat
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD1/FacingLeaves_4.mat.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD1/Fronds_2.mat
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD1/Fronds_2.mat.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD1/Leaves_3.mat
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD1/Leaves_3.mat.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD2.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD2/Branches_0.mat
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD2/Branches_0.mat.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD2/Branches_1.mat
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD2/Branches_1.mat.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD2/FacingLeaves_4.mat
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD2/FacingLeaves_4.mat.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD2/Fronds_2.mat
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD2/Fronds_2.mat.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD2/Leaves_3.mat
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop Materials/LOD2/Leaves_3.mat.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop.spm
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop.spm.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop_Atlas.tga
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop_Atlas.tga.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop_Atlas_Billboards.tga
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop_Atlas_Billboards.tga.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop_Atlas_Billboards_Normal.tga
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop_Atlas_Billboards_Normal.tga.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop_Atlas_Normal.tga
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop_Atlas_Normal.tga.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop_Atlas_Specular.tga
+    - Assets/Free_SpeedTrees/Broadleaf_Desktop_Atlas_Specular.tga.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile Materials.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile Materials/Billboard.mat
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile Materials/Billboard.mat.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile Materials/LOD0.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile Materials/LOD0/Branches_0.mat
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile Materials/LOD0/Branches_0.mat.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile Materials/LOD0/Leaves_1.mat
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile Materials/LOD0/Leaves_1.mat.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile Materials/LOD1.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile Materials/LOD1/Branches_0.mat
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile Materials/LOD1/Branches_0.mat.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile Materials/LOD1/Leaves_1.mat
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile Materials/LOD1/Leaves_1.mat.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile Materials/LOD2.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile Materials/LOD2/Branches_0.mat
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile Materials/LOD2/Branches_0.mat.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile Materials/LOD2/Leaves_1.mat
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile Materials/LOD2/Leaves_1.mat.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile.spm
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile.spm.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile_Atlas.tga
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile_Atlas.tga.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile_Atlas_Billboards.tga
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile_Atlas_Billboards.tga.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile_Atlas_Billboards_Normal.tga
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile_Atlas_Billboards_Normal.tga.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile_Atlas_Normal.tga
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile_Atlas_Normal.tga.meta
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile_Atlas_Specular.tga
+    - Assets/Free_SpeedTrees/Broadleaf_Mobile_Atlas_Specular.tga.meta
+    - Assets/Free_SpeedTrees/Broadleaves.obj
+    - Assets/Free_SpeedTrees/Broadleaves.obj.meta
+    - Assets/Free_SpeedTrees/Broadleaves_Card_Desktop.tga
+    - Assets/Free_SpeedTrees/Broadleaves_Card_Desktop.tga.meta
+    - Assets/Free_SpeedTrees/Broadleaves_Card_Desktop_Normal.tga
+    - Assets/Free_SpeedTrees/Broadleaves_Card_Desktop_Normal.tga.meta
+    - Assets/Free_SpeedTrees/Broadleaves_Card_Desktop_Spec.tga
+    - Assets/Free_SpeedTrees/Broadleaves_Card_Desktop_Spec.tga.meta
+    - Assets/Free_SpeedTrees/Broadleaves_Desktop.tga
+    - Assets/Free_SpeedTrees/Broadleaves_Desktop.tga.meta
+    - Assets/Free_SpeedTrees/Broadleaves_Desktop_Normal.tga
+    - Assets/Free_SpeedTrees/Broadleaves_Desktop_Normal.tga.meta
+    - Assets/Free_SpeedTrees/Broadleaves_Desktop_Spec.tga
+    - Assets/Free_SpeedTrees/Broadleaves_Desktop_Spec.tga.meta
+    - Assets/Free_SpeedTrees/Broadleaves_Mobile.tga
+    - Assets/Free_SpeedTrees/Broadleaves_Mobile.tga.meta
+    - Assets/Free_SpeedTrees/Broadleaves_Mobile_Normal.tga
+    - Assets/Free_SpeedTrees/Broadleaves_Mobile_Normal.tga.meta
+    - Assets/Free_SpeedTrees/Broadleaves_Mobile_Spec.tga
+    - Assets/Free_SpeedTrees/Broadleaves_Mobile_Spec.tga.meta
+    - Assets/Free_SpeedTrees/Cap_01.tga
+    - Assets/Free_SpeedTrees/Cap_01.tga.meta
+    - Assets/Free_SpeedTrees/Cap_01_Normal.tga
+    - Assets/Free_SpeedTrees/Cap_01_Normal.tga.meta
+    - Assets/Free_SpeedTrees/Cap_02.tga
+    - Assets/Free_SpeedTrees/Cap_02.tga.meta
+    - Assets/Free_SpeedTrees/Cap_02_Normal.tga
+    - Assets/Free_SpeedTrees/Cap_02_Normal.tga.meta
+    - Assets/Free_SpeedTrees/ClippedFrond.tga
+    - Assets/Free_SpeedTrees/ClippedFrond.tga.meta
+    - Assets/Free_SpeedTrees/ClippedFrond_Normal.tga
+    - Assets/Free_SpeedTrees/ClippedFrond_Normal.tga.meta
+    - Assets/Free_SpeedTrees/ConiferBark.tga
+    - Assets/Free_SpeedTrees/ConiferBark.tga.meta
+    - Assets/Free_SpeedTrees/ConiferBark_Normal.tga
+    - Assets/Free_SpeedTrees/ConiferBark_Normal.tga.meta
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials.meta
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/Billboard.mat
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/Billboard.mat.meta
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/LOD0.meta
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/LOD0/Branches_0.mat
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/LOD0/Branches_0.mat.meta
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/LOD0/Branches_1.mat
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/LOD0/Branches_1.mat.meta
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/LOD0/Fronds_2.mat
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/LOD0/Fronds_2.mat.meta
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/LOD0/Leaves_3.mat
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/LOD0/Leaves_3.mat.meta
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/LOD1.meta
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/LOD1/Branches_0.mat
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/LOD1/Branches_0.mat.meta
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/LOD1/Branches_1.mat
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/LOD1/Branches_1.mat.meta
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/LOD1/Fronds_2.mat
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/LOD1/Fronds_2.mat.meta
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/LOD1/Leaves_3.mat
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/LOD1/Leaves_3.mat.meta
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/LOD2.meta
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/LOD2/Branches_0.mat
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/LOD2/Branches_0.mat.meta
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/LOD2/Branches_1.mat
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/LOD2/Branches_1.mat.meta
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/LOD2/Leaves_3.mat
+    - Assets/Free_SpeedTrees/Conifer_Desktop Materials/LOD2/Leaves_3.mat.meta
+    - Assets/Free_SpeedTrees/Conifer_Desktop.spm
+    - Assets/Free_SpeedTrees/Conifer_Desktop.spm.meta
+    - Assets/Free_SpeedTrees/Conifer_Desktop_Atlas.tga
+    - Assets/Free_SpeedTrees/Conifer_Desktop_Atlas.tga.meta
+    - Assets/Free_SpeedTrees/Conifer_Desktop_Atlas_Billboards.tga
+    - Assets/Free_SpeedTrees/Conifer_Desktop_Atlas_Billboards.tga.meta
+    - Assets/Free_SpeedTrees/Conifer_Desktop_Atlas_Billboards_Normal.tga
+    - Assets/Free_SpeedTrees/Conifer_Desktop_Atlas_Billboards_Normal.tga.meta
+    - Assets/Free_SpeedTrees/Conifer_Desktop_Atlas_Normal.tga
+    - Assets/Free_SpeedTrees/Conifer_Desktop_Atlas_Normal.tga.meta
+    - Assets/Free_SpeedTrees/Conifer_Desktop_Atlas_Specular.tga
+    - Assets/Free_SpeedTrees/Conifer_Desktop_Atlas_Specular.tga.meta
+    - Assets/Free_SpeedTrees/Conifer_Needles_Dekstop_Spec.tga
+    - Assets/Free_SpeedTrees/Conifer_Needles_Dekstop_Spec.tga.meta
+    - Assets/Free_SpeedTrees/Conifer_Needles_Desktop.tga
+    - Assets/Free_SpeedTrees/Conifer_Needles_Desktop.tga.meta
+    - Assets/Free_SpeedTrees/Conifer_Needles_Desktop_Normal.tga
+    - Assets/Free_SpeedTrees/Conifer_Needles_Desktop_Normal.tga.meta
+    - Assets/Free_SpeedTrees/IDV_EULA.pdf
+    - Assets/Free_SpeedTrees/IDV_EULA.pdf.meta
+    - Assets/Free_SpeedTrees/Materials.meta
+    - Assets/Free_SpeedTrees/Materials/diamondMat.mat
+    - Assets/Free_SpeedTrees/Materials/diamondMat.mat.meta
+    - Assets/Free_SpeedTrees/PalmBark.tga
+    - Assets/Free_SpeedTrees/PalmBark.tga.meta
+    - Assets/Free_SpeedTrees/PalmBark_Detail.tga
+    - Assets/Free_SpeedTrees/PalmBark_Detail.tga.meta
+    - Assets/Free_SpeedTrees/PalmBark_Detail_Normal.tga
+    - Assets/Free_SpeedTrees/PalmBark_Detail_Normal.tga.meta
+    - Assets/Free_SpeedTrees/PalmBark_Normal.tga
+    - Assets/Free_SpeedTrees/PalmBark_Normal.tga.meta
+    - Assets/Free_SpeedTrees/PalmFrond.tga
+    - Assets/Free_SpeedTrees/PalmFrond.tga.meta
+    - Assets/Free_SpeedTrees/PalmFrond_Normal.tga
+    - Assets/Free_SpeedTrees/PalmFrond_Normal.tga.meta
+    - Assets/Free_SpeedTrees/PalmFrond_Spec.tga
+    - Assets/Free_SpeedTrees/PalmFrond_Spec.tga.meta
+    - Assets/Free_SpeedTrees/Palm_Desktop Materials.meta
+    - Assets/Free_SpeedTrees/Palm_Desktop Materials/Billboard.mat
+    - Assets/Free_SpeedTrees/Palm_Desktop Materials/Billboard.mat.meta
+    - Assets/Free_SpeedTrees/Palm_Desktop Materials/LOD0.meta
+    - Assets/Free_SpeedTrees/Palm_Desktop Materials/LOD0/Branches_0.mat
+    - Assets/Free_SpeedTrees/Palm_Desktop Materials/LOD0/Branches_0.mat.meta
+    - Assets/Free_SpeedTrees/Palm_Desktop Materials/LOD0/Branches_1.mat
+    - Assets/Free_SpeedTrees/Palm_Desktop Materials/LOD0/Branches_1.mat.meta
+    - Assets/Free_SpeedTrees/Palm_Desktop Materials/LOD0/Fronds_2.mat
+    - Assets/Free_SpeedTrees/Palm_Desktop Materials/LOD0/Fronds_2.mat.meta
+    - Assets/Free_SpeedTrees/Palm_Desktop Materials/LOD0/Leaves_3.mat
+    - Assets/Free_SpeedTrees/Palm_Desktop Materials/LOD0/Leaves_3.mat.meta
+    - Assets/Free_SpeedTrees/Palm_Desktop Materials/LOD1.meta
+    - Assets/Free_SpeedTrees/Palm_Desktop Materials/LOD1/Branches_0.mat
+    - Assets/Free_SpeedTrees/Palm_Desktop Materials/LOD1/Branches_0.mat.meta
+    - Assets/Free_SpeedTrees/Palm_Desktop Materials/LOD1/Fronds_2.mat
+    - Assets/Free_SpeedTrees/Palm_Desktop Materials/LOD1/Fronds_2.mat.meta
+    - Assets/Free_SpeedTrees/Palm_Desktop Materials/LOD1/Leaves_3.mat
+    - Assets/Free_SpeedTrees/Palm_Desktop Materials/LOD1/Leaves_3.mat.meta
+    - Assets/Free_SpeedTrees/Palm_Desktop Materials/LOD2.meta
+    - Assets/Free_SpeedTrees/Palm_Desktop Materials/LOD2/Branches_0.mat
+    - Assets/Free_SpeedTrees/Palm_Desktop Materials/LOD2/Branches_0.mat.meta
+    - Assets/Free_SpeedTrees/Palm_Desktop Materials/LOD2/Fronds_2.mat
+    - Assets/Free_SpeedTrees/Palm_Desktop Materials/LOD2/Fronds_2.mat.meta
+    - Assets/Free_SpeedTrees/Palm_Desktop.spm
+    - Assets/Free_SpeedTrees/Palm_Desktop.spm.meta
+    - Assets/Free_SpeedTrees/Palm_Desktop_Atlas.tga
+    - Assets/Free_SpeedTrees/Palm_Desktop_Atlas.tga.meta
+    - Assets/Free_SpeedTrees/Palm_Desktop_Atlas_Billboards.tga
+    - Assets/Free_SpeedTrees/Palm_Desktop_Atlas_Billboards.tga.meta
+    - Assets/Free_SpeedTrees/Palm_Desktop_Atlas_Billboards_Normal.tga
+    - Assets/Free_SpeedTrees/Palm_Desktop_Atlas_Billboards_Normal.tga.meta
+    - Assets/Free_SpeedTrees/Palm_Desktop_Atlas_Normal.tga
+    - Assets/Free_SpeedTrees/Palm_Desktop_Atlas_Normal.tga.meta
+    - Assets/Free_SpeedTrees/Palm_Desktop_Atlas_Specular.tga
+    - Assets/Free_SpeedTrees/Palm_Desktop_Atlas_Specular.tga.meta
+    - Assets/NatureStarterKit2/Animations/Main Camera.controller
+    - Assets/NatureStarterKit2/Animations/cameraanim.anim
+    - Assets/NatureStarterKit2/Editor/ImageEffects/AntialiasingEditor.cs
+    - Assets/NatureStarterKit2/Editor/ImageEffects/BloomAndFlaresEditor.cs
+    - Assets/NatureStarterKit2/Editor/ImageEffects/BloomEditor.cs
+    - Assets/NatureStarterKit2/Editor/ImageEffects/CameraMotionBlurEditor.cs
+    - Assets/NatureStarterKit2/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs
+    - Assets/NatureStarterKit2/Editor/ImageEffects/ColorCorrectionLookupEditor.cs
+    - Assets/NatureStarterKit2/Editor/ImageEffects/CreaseShadingEditor.cs
+    - Assets/NatureStarterKit2/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs
+    - Assets/NatureStarterKit2/Editor/ImageEffects/DepthOfFieldEditor.cs
+    - Assets/NatureStarterKit2/Editor/ImageEffects/EdgeDetectionEditor.cs
+    - Assets/NatureStarterKit2/Editor/ImageEffects/NoiseAndGrainEditor.cs
+    - Assets/NatureStarterKit2/Editor/ImageEffects/SunShaftsEditor.cs
+    - Assets/NatureStarterKit2/Editor/ImageEffects/TonemappingEditor.cs
+    - Assets/NatureStarterKit2/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs
+    - Assets/NatureStarterKit2/Materials/bark01.mat
+    - Assets/NatureStarterKit2/Materials/bark02.mat
+    - Assets/NatureStarterKit2/Materials/branch01.mat
+    - Assets/NatureStarterKit2/Materials/branch02.mat
+    - Assets/NatureStarterKit2/Materials/bush01.mat
+    - Assets/NatureStarterKit2/Materials/bush02.mat
+    - Assets/NatureStarterKit2/Materials/sky.mat
+    - Assets/NatureStarterKit2/Materials/skybox.mat
+    - Assets/NatureStarterKit2/Nature/bush01.prefab
+    - Assets/NatureStarterKit2/Nature/bush02.prefab
+    - Assets/NatureStarterKit2/Nature/bush03.prefab
+    - Assets/NatureStarterKit2/Nature/bush04.prefab
+    - Assets/NatureStarterKit2/Nature/bush05.prefab
+    - Assets/NatureStarterKit2/Nature/bush06.prefab
+    - Assets/NatureStarterKit2/Nature/tree01.prefab
+    - Assets/NatureStarterKit2/Nature/tree02.prefab
+    - Assets/NatureStarterKit2/Nature/tree03.prefab
+    - Assets/NatureStarterKit2/Nature/tree04.prefab
+    - Assets/NatureStarterKit2/Scene/Demo.unity
+    - Assets/NatureStarterKit2/Scene/DemoSettings.lighting
+    - Assets/NatureStarterKit2/Scene/DemoSettings.lighting.meta
+    - Assets/NatureStarterKit2/Scene/New Terrain.asset
+    - Assets/NatureStarterKit2/Scene/SecondaryTerrain.asset
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/VignettingShader.shader
+    - Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader
+    - Assets/NatureStarterKit2/info.txt
+    - Assets/NavMeshComponents/Editor/NavMeshAssetManager.cs
+    - Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef
+    - Assets/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs
+    - Assets/NavMeshComponents/Editor/NavMeshLinkEditor.cs
+    - Assets/NavMeshComponents/Editor/NavMeshModifierEditor.cs
+    - Assets/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs
+    - Assets/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs
+    - Assets/NavMeshComponents/LICENSE
+    - Assets/NavMeshComponents/README.md
+    - Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef
+    - Assets/NavMeshComponents/Scripts/NavMeshLink.cs
+    - Assets/NavMeshComponents/Scripts/NavMeshModifier.cs
+    - Assets/NavMeshComponents/Scripts/NavMeshModifierVolume.cs
+    - Assets/NavMeshComponents/Scripts/NavMeshSurface.cs
+    - Assets/New Material 1.mat
+    - Assets/New Material 1.mat.meta
+    - Assets/New Material.mat
+    - Assets/New Material.mat.meta
+    - Assets/New Terrain 1.asset
+    - Assets/New Terrain 1.asset.meta
+    - Assets/New Terrain.asset
+    - Assets/New Terrain.asset.meta
+    - Assets/NewBehaviourScript.cs
+    - Assets/NewBehaviourScript.cs.meta
+    - Assets/NewLayer.terrainlayer
+    - Assets/NewLayer.terrainlayer.meta
+    - Assets/NewNK.meta
+    - Assets/NewNK.unity
+    - Assets/NewNK/NavMesh-NavMesh Surface.asset
+    - Assets/NewNK/NavMesh-NavMesh Surface.asset.meta
+    - Assets/Samples.meta
+    - Assets/Samples/Terrain Tools.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/HeightmapTexture.preset
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/HeightmapTexture.preset.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/canyon01.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/canyon01.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/canyon02.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/canyon02.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/canyon03.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/canyon03.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/canyon04.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/canyon04.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/canyon05.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/canyon05.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/clouds.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/clouds.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/cracked_earth01.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/cracked_earth01.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/cracked_earth02.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/cracked_earth02.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/errosion01.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/errosion01.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/errosion02.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/errosion02.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/flat_mountain01.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/flat_mountain01.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/island01.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/island01.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/mountain01.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/mountain01.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/mountain02.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/mountain02.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/mountain03.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/mountain03.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/mountain04.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/mountain04.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/mountain05.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/mountain05.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/mountain06.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/mountain06.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/mountain07.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/mountain07.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/mountain08.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/mountain08.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/plateau01.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/plateau01.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/plateau02.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/plateau02.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/plateau03.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/plateau03.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/ridge01.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/ridge01.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/ridge02.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/ridge02.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/ridge03.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/ridge03.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/ridge04.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/ridge04.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/ridge05.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/ridge05.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/ridge06.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/ridge06.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/ridge_edge01.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/ridge_edge01.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/rolling_hills01.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/rolling_hills01.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/soft_peaks01.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/soft_peaks01.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/volcanic.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/volcanic.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/volcano01.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/volcano01.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/white_square.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/white_square.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/noise_soft.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/noise_soft.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/soft_round.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/soft_round.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon01.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon01.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon02.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon02.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon03.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon03.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon04.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon04.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon05.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon05.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_crackedground01.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_crackedground01.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_crackedground02.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_crackedground02.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_erode01.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_erode01.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_erode02.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_erode02.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_flatmountain01.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_flatmountain01.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_island01.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_island01.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain01.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain01.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain02.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain02.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain03.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain03.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain04.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain04.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain05.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain05.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain06.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain06.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain07.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain07.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain08.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain08.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_plateau01.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_plateau01.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_plateau02.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_plateau02.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_plateau03.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_plateau03.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge01.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge01.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge02.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge02.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge03.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge03.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge04.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge04.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge05.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge05.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge06.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge06.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridgeedge01.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridgeedge01.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_rollinghills01.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_rollinghills01.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_softpeaks01.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_softpeaks01.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_volcano01.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_volcano01.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_volcano02.brush
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_volcano02.brush.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/dirt.terrainlayer
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/dirt.terrainlayer.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/moss.terrainlayer
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/moss.terrainlayer.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/rock.terrainlayer
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/rock.terrainlayer.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/sand.terrainlayer
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/sand.terrainlayer.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/scree.terrainlayer
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/scree.terrainlayer.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/snow.terrainlayer
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/snow.terrainlayer.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_albedo.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_albedo.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_mask.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_mask.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_normal.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_normal.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_albedo.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_albedo.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_mask.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_mask.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_normal.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_normal.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/rock_albedo.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/rock_albedo.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/rock_mask.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/rock_mask.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/rock_normal.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/rock_normal.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_albedo.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_albedo.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_mask.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_mask.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_normal.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_normal.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/scree_albedo.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/scree_albedo.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/scree_mask.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/scree_mask.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/screen_normal.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/screen_normal.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_albedo.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_albedo.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_mask.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_mask.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_normal.tif
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_normal.tif.meta
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/ThirdPartyNotices.txt
+    - Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/ThirdPartyNotices.txt.meta
+    - Assets/Standard Assets.meta
+    - Assets/Standard Assets/2D.meta
+    - Assets/Standard Assets/2D/Animations.meta
+    - Assets/Standard Assets/2D/Animations/RobotBoyCrouch.anim
+    - Assets/Standard Assets/2D/Animations/RobotBoyCrouch.anim.meta
+    - Assets/Standard Assets/2D/Animations/RobotBoyCrouchingWalk.anim
+    - Assets/Standard Assets/2D/Animations/RobotBoyCrouchingWalk.anim.meta
+    - Assets/Standard Assets/2D/Animations/RobotBoyFalling.anim
+    - Assets/Standard Assets/2D/Animations/RobotBoyFalling.anim.meta
+    - Assets/Standard Assets/2D/Animations/RobotBoyIdle.anim
+    - Assets/Standard Assets/2D/Animations/RobotBoyIdle.anim.meta
+    - Assets/Standard Assets/2D/Animations/RobotBoyJump01.anim
+    - Assets/Standard Assets/2D/Animations/RobotBoyJump01.anim.meta
+    - Assets/Standard Assets/2D/Animations/RobotBoyJump02.anim
+    - Assets/Standard Assets/2D/Animations/RobotBoyJump02.anim.meta
+    - Assets/Standard Assets/2D/Animations/RobotBoyJump03.anim
+    - Assets/Standard Assets/2D/Animations/RobotBoyJump03.anim.meta
+    - Assets/Standard Assets/2D/Animations/RobotBoyJump04.anim
+    - Assets/Standard Assets/2D/Animations/RobotBoyJump04.anim.meta
+    - Assets/Standard Assets/2D/Animations/RobotBoyJump05.anim
+    - Assets/Standard Assets/2D/Animations/RobotBoyJump05.anim.meta
+    - Assets/Standard Assets/2D/Animations/RobotBoyJump06.anim
+    - Assets/Standard Assets/2D/Animations/RobotBoyJump06.anim.meta
+    - Assets/Standard Assets/2D/Animations/RobotBoyJump07.anim
+    - Assets/Standard Assets/2D/Animations/RobotBoyJump07.anim.meta
+    - Assets/Standard Assets/2D/Animations/RobotBoyJump08.anim
+    - Assets/Standard Assets/2D/Animations/RobotBoyJump08.anim.meta
+    - Assets/Standard Assets/2D/Animations/RobotBoyJump09.anim
+    - Assets/Standard Assets/2D/Animations/RobotBoyJump09.anim.meta
+    - Assets/Standard Assets/2D/Animations/RobotBoyJump10.anim
+    - Assets/Standard Assets/2D/Animations/RobotBoyJump10.anim.meta
+    - Assets/Standard Assets/2D/Animations/RobotBoyJump11.anim
+    - Assets/Standard Assets/2D/Animations/RobotBoyJump11.anim.meta
+    - Assets/Standard Assets/2D/Animations/RobotBoyRun.anim
+    - Assets/Standard Assets/2D/Animations/RobotBoyRun.anim.meta
+    - Assets/Standard Assets/2D/Animations/RobotBoyWalk.anim
+    - Assets/Standard Assets/2D/Animations/RobotBoyWalk.anim.meta
+    - Assets/Standard Assets/2D/Animator.meta
+    - Assets/Standard Assets/2D/Animator/2dCharacterAnimator.controller
+    - Assets/Standard Assets/2D/Animator/2dCharacterAnimator.controller.meta
+    - Assets/Standard Assets/2D/Materials.meta
+    - Assets/Standard Assets/2D/Materials/SpriteLit.mat
+    - Assets/Standard Assets/2D/Materials/SpriteLit.mat.meta
+    - Assets/Standard Assets/2D/PhysicsMaterials.meta
+    - Assets/Standard Assets/2D/PhysicsMaterials/BouncyBox.physicsMaterial2D
+    - Assets/Standard Assets/2D/PhysicsMaterials/BouncyBox.physicsMaterial2D.meta
+    - Assets/Standard Assets/2D/PhysicsMaterials/Slippery.physicsMaterial2D
+    - Assets/Standard Assets/2D/PhysicsMaterials/Slippery.physicsMaterial2D.meta
+    - Assets/Standard Assets/2D/PhysicsMaterials/Sticky.physicsMaterial2D
+    - Assets/Standard Assets/2D/PhysicsMaterials/Sticky.physicsMaterial2D.meta
+    - Assets/Standard Assets/2D/Prefabs.meta
+    - Assets/Standard Assets/2D/Prefabs/CharacterRobotBoy.prefab
+    - Assets/Standard Assets/2D/Prefabs/CharacterRobotBoy.prefab.meta
+    - Assets/Standard Assets/2D/Prefabs/CollisionSlider.prefab
+    - Assets/Standard Assets/2D/Prefabs/CollisionSlider.prefab.meta
+    - Assets/Standard Assets/2D/Prefabs/CratePink.prefab
+    - Assets/Standard Assets/2D/Prefabs/CratePink.prefab.meta
+    - Assets/Standard Assets/2D/Prefabs/ExtentsLeft.prefab
+    - Assets/Standard Assets/2D/Prefabs/ExtentsLeft.prefab.meta
+    - Assets/Standard Assets/2D/Prefabs/ExtentsRight.prefab
+    - Assets/Standard Assets/2D/Prefabs/ExtentsRight.prefab.meta
+    - Assets/Standard Assets/2D/Prefabs/Killzone.prefab
+    - Assets/Standard Assets/2D/Prefabs/Killzone.prefab.meta
+    - Assets/Standard Assets/2D/Prefabs/Platform04x01.prefab
+    - Assets/Standard Assets/2D/Prefabs/Platform04x01.prefab.meta
+    - Assets/Standard Assets/2D/Prefabs/Platform08x01.prefab
+    - Assets/Standard Assets/2D/Prefabs/Platform08x01.prefab.meta
+    - Assets/Standard Assets/2D/Prefabs/Platform12x01.prefab
+    - Assets/Standard Assets/2D/Prefabs/Platform12x01.prefab.meta
+    - Assets/Standard Assets/2D/Prefabs/Platform16x01.prefab
+    - Assets/Standard Assets/2D/Prefabs/Platform16x01.prefab.meta
+    - Assets/Standard Assets/2D/Prefabs/Platform36x01.prefab
+    - Assets/Standard Assets/2D/Prefabs/Platform36x01.prefab.meta
+    - Assets/Standard Assets/2D/Prefabs/PlatformRamp.prefab
+    - Assets/Standard Assets/2D/Prefabs/PlatformRamp.prefab.meta
+    - Assets/Standard Assets/2D/Scripts.meta
+    - Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs
+    - Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs.meta
+    - Assets/Standard Assets/2D/Scripts/CameraFollow.cs
+    - Assets/Standard Assets/2D/Scripts/CameraFollow.cs.meta
+    - Assets/Standard Assets/2D/Scripts/Platformer2DUserControl.cs
+    - Assets/Standard Assets/2D/Scripts/Platformer2DUserControl.cs.meta
+    - Assets/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs
+    - Assets/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs.meta
+    - Assets/Standard Assets/2D/Scripts/Restarter.cs
+    - Assets/Standard Assets/2D/Scripts/Restarter.cs.meta
+    - Assets/Standard Assets/2D/Sprites.meta
+    - Assets/Standard Assets/2D/Sprites/BackgroundGreyGridSprite.png
+    - Assets/Standard Assets/2D/Sprites/BackgroundGreyGridSprite.png.meta
+    - Assets/Standard Assets/2D/Sprites/BackgroundNavyGridSprite.png
+    - Assets/Standard Assets/2D/Sprites/BackgroundNavyGridSprite.png.meta
+    - Assets/Standard Assets/2D/Sprites/CratePinkGridSprite.png
+    - Assets/Standard Assets/2D/Sprites/CratePinkGridSprite.png.meta
+    - Assets/Standard Assets/2D/Sprites/PlatformWhiteSprite.png
+    - Assets/Standard Assets/2D/Sprites/PlatformWhiteSprite.png.meta
+    - Assets/Standard Assets/2D/Sprites/RobotBoyCrouchSprite.png
+    - Assets/Standard Assets/2D/Sprites/RobotBoyCrouchSprite.png.meta
+    - Assets/Standard Assets/2D/Sprites/RobotBoyDeathSprite.png
+    - Assets/Standard Assets/2D/Sprites/RobotBoyDeathSprite.png.meta
+    - Assets/Standard Assets/2D/Sprites/RobotBoyIdleSprite.png
+    - Assets/Standard Assets/2D/Sprites/RobotBoyIdleSprite.png.meta
+    - Assets/Standard Assets/2D/Sprites/RobotBoyJumpSprite.png
+    - Assets/Standard Assets/2D/Sprites/RobotBoyJumpSprite.png.meta
+    - Assets/Standard Assets/2D/Sprites/RobotBoyRollSprite.png
+    - Assets/Standard Assets/2D/Sprites/RobotBoyRollSprite.png.meta
+    - Assets/Standard Assets/2D/Sprites/RobotBoyRunSprite.png
+    - Assets/Standard Assets/2D/Sprites/RobotBoyRunSprite.png.meta
+    - Assets/Standard Assets/2D/Sprites/RobotBoyWalkSprite.png
+    - Assets/Standard Assets/2D/Sprites/RobotBoyWalkSprite.png.meta
+    - Assets/Standard Assets/Cameras.meta
+    - Assets/Standard Assets/Cameras/CameraGuidelines.txt
+    - Assets/Standard Assets/Cameras/CameraGuidelines.txt.meta
+    - Assets/Standard Assets/Cameras/Prefabs.meta
+    - Assets/Standard Assets/Cameras/Prefabs/CctvCamera.prefab
+    - Assets/Standard Assets/Cameras/Prefabs/CctvCamera.prefab.meta
+    - Assets/Standard Assets/Cameras/Prefabs/FreeLookCameraRig.prefab
+    - Assets/Standard Assets/Cameras/Prefabs/FreeLookCameraRig.prefab.meta
+    - Assets/Standard Assets/Cameras/Prefabs/HandheldCamera.prefab
+    - Assets/Standard Assets/Cameras/Prefabs/HandheldCamera.prefab.meta
+    - Assets/Standard Assets/Cameras/Prefabs/MultipurposeCameraRig.prefab
+    - Assets/Standard Assets/Cameras/Prefabs/MultipurposeCameraRig.prefab.meta
+    - Assets/Standard Assets/Cameras/Scripts.meta
+    - Assets/Standard Assets/Cameras/Scripts/AbstractTargetFollower.cs
+    - Assets/Standard Assets/Cameras/Scripts/AbstractTargetFollower.cs.meta
+    - Assets/Standard Assets/Cameras/Scripts/AutoCam.cs
+    - Assets/Standard Assets/Cameras/Scripts/AutoCam.cs.meta
+    - Assets/Standard Assets/Cameras/Scripts/FreeLookCam.cs
+    - Assets/Standard Assets/Cameras/Scripts/FreeLookCam.cs.meta
+    - Assets/Standard Assets/Cameras/Scripts/HandHeldCam.cs
+    - Assets/Standard Assets/Cameras/Scripts/HandHeldCam.cs.meta
+    - Assets/Standard Assets/Cameras/Scripts/LookatTarget.cs
+    - Assets/Standard Assets/Cameras/Scripts/LookatTarget.cs.meta
+    - Assets/Standard Assets/Cameras/Scripts/PivotBasedCameraRig.cs
+    - Assets/Standard Assets/Cameras/Scripts/PivotBasedCameraRig.cs.meta
+    - Assets/Standard Assets/Cameras/Scripts/ProtectCameraFromWallClip.cs
+    - Assets/Standard Assets/Cameras/Scripts/ProtectCameraFromWallClip.cs.meta
+    - Assets/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs
+    - Assets/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs.meta
+    - Assets/Standard Assets/Characters.meta
+    - Assets/Standard Assets/Characters/FirstPersonCharacter.meta
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Audio.meta
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep01.wav
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep01.wav.meta
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep02.wav
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep02.wav.meta
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep03.wav
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep03.wav.meta
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep04.wav
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep04.wav.meta
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Jump.wav
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Jump.wav.meta
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Land.wav
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Land.wav.meta
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/FirstPersonCharacterGuidelines.txt
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/FirstPersonCharacterGuidelines.txt.meta
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs.meta
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab.meta
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/RigidBodyFPSController.prefab
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/RigidBodyFPSController.prefab.meta
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts.meta
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs.meta
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs.meta
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs.meta
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs.meta
+    - Assets/Standard Assets/Characters/RollerBall.meta
+    - Assets/Standard Assets/Characters/RollerBall/Materials.meta
+    - Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallGrey.mat
+    - Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallGrey.mat.meta
+    - Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallWhite.mat
+    - Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallWhite.mat.meta
+    - Assets/Standard Assets/Characters/RollerBall/Models.meta
+    - Assets/Standard Assets/Characters/RollerBall/Models/RollerBall.fbx
+    - Assets/Standard Assets/Characters/RollerBall/Models/RollerBall.fbx.meta
+    - Assets/Standard Assets/Characters/RollerBall/Prefabs.meta
+    - Assets/Standard Assets/Characters/RollerBall/Prefabs/RollerBall.prefab
+    - Assets/Standard Assets/Characters/RollerBall/Prefabs/RollerBall.prefab.meta
+    - Assets/Standard Assets/Characters/RollerBall/RollerBallGuidelines.txt
+    - Assets/Standard Assets/Characters/RollerBall/RollerBallGuidelines.txt.meta
+    - Assets/Standard Assets/Characters/RollerBall/Scripts.meta
+    - Assets/Standard Assets/Characters/RollerBall/Scripts/Ball.cs
+    - Assets/Standard Assets/Characters/RollerBall/Scripts/Ball.cs.meta
+    - Assets/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs
+    - Assets/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs.meta
+    - Assets/Standard Assets/Characters/RollerBall/Textures.meta
+    - Assets/Standard Assets/Characters/RollerBall/Textures/RollerBallAlbedo.png
+    - Assets/Standard Assets/Characters/RollerBall/Textures/RollerBallAlbedo.png.meta
+    - Assets/Standard Assets/Characters/RollerBall/Textures/RollerBallSpecularGloss.png
+    - Assets/Standard Assets/Characters/RollerBall/Textures/RollerBallSpecularGloss.png.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidCrouch.fbx
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidCrouch.fbx.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdle.fbx
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdle.fbx.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdleJumpUp.fbx
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdleJumpUp.fbx.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidJumpAndFall.fbx
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidJumpAndFall.fbx.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidMidAir.fbx
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidMidAir.fbx.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRun.fbx
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRun.fbx.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurn.fbx
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurn.fbx.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurnSharp.fbx
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurnSharp.fbx.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidStandTurn.fbx
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidStandTurn.fbx.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalk.fbx
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalk.fbx.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurn.fbx
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurn.fbx.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurnSharp.fbx
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurnSharp.fbx.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animator.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animator/ThirdPersonAnimatorController.controller
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Animator/ThirdPersonAnimatorController.controller.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanGrey.mat
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanGrey.mat.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanWhite.mat
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanWhite.mat.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Models.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Models/Ethan.fbx
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Models/Ethan.fbx.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/AIThirdPersonController.prefab
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/AIThirdPersonController.prefab.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/ThirdPersonController.prefab
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/ThirdPersonController.prefab.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanNormals.png
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanNormals.png.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanOcclusion.png
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanOcclusion.png.meta
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/ThirdPersonCharacterGuidelines.txt
+    - Assets/Standard Assets/Characters/ThirdPersonCharacter/ThirdPersonCharacterGuidelines.txt.meta
+    - Assets/Standard Assets/CrossPlatformInput.meta
+    - Assets/Standard Assets/CrossPlatformInput/CrossPlatformInputGuidelines.txt
+    - Assets/Standard Assets/CrossPlatformInput/CrossPlatformInputGuidelines.txt.meta
+    - Assets/Standard Assets/CrossPlatformInput/Prefabs.meta
+    - Assets/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab
+    - Assets/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab.meta
+    - Assets/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab
+    - Assets/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab.meta
+    - Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab
+    - Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab.meta
+    - Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab
+    - Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab.meta
+    - Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab
+    - Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/SliderHandleSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/SliderHandleSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png.meta
+    - Assets/Standard Assets/Editor.meta
+    - Assets/Standard Assets/Editor/CrossPlatformInput.meta
+    - Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs
+    - Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs.meta
+    - Assets/Standard Assets/Editor/Water.meta
+    - Assets/Standard Assets/Editor/Water/Water4.meta
+    - Assets/Standard Assets/Editor/Water/Water4/GerstnerDisplaceEditor.cs
+    - Assets/Standard Assets/Editor/Water/Water4/GerstnerDisplaceEditor.cs.meta
+    - Assets/Standard Assets/Editor/Water/Water4/PlanarReflectionEditor.cs
+    - Assets/Standard Assets/Editor/Water/Water4/PlanarReflectionEditor.cs.meta
+    - Assets/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs
+    - Assets/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs.meta
+    - Assets/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs
+    - Assets/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs.meta
+    - Assets/Standard Assets/Editor/Water/Water4/WaterEditorUtility.cs
+    - Assets/Standard Assets/Editor/Water/Water4/WaterEditorUtility.cs.meta
+    - Assets/Standard Assets/Environment.meta
+    - Assets/Standard Assets/Environment/SpeedTree.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/BroadleafBark.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/BroadleafBark.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/BroadleafBark_Normal.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/BroadleafBark_Normal.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/Billboard.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/Billboard.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Branches_0.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Branches_0.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Branches_1.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Branches_1.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/FacingLeaves_4.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/FacingLeaves_4.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Fronds_2.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Fronds_2.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Leaves_3.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Leaves_3.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Branches_0.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Branches_0.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Branches_1.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Branches_1.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/FacingLeaves_4.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/FacingLeaves_4.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Fronds_2.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Fronds_2.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Leaves_3.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Leaves_3.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Branches_0.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Branches_0.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Branches_1.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Branches_1.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/FacingLeaves_4.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/FacingLeaves_4.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Fronds_2.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Fronds_2.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Leaves_3.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Leaves_3.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop.spm
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop.spm.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Billboards.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Billboards.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Billboards_Normal.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Billboards_Normal.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Normal.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Normal.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Specular.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Specular.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/Billboard.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/Billboard.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD0.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD0/Branches_0.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD0/Branches_0.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD0/Leaves_1.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD0/Leaves_1.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD1.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD1/Branches_0.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD1/Branches_0.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD1/Leaves_1.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD1/Leaves_1.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2/Branches_0.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2/Branches_0.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2/Leaves_1.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2/Leaves_1.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile.spm
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile.spm.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Billboards.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Billboards.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Billboards_Normal.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Billboards_Normal.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Normal.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Normal.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Specular.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Specular.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Normal.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Normal.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Spec.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Spec.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop_Normal.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop_Normal.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop_Spec.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop_Spec.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile_Normal.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile_Normal.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile_Spec.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile_Spec.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_01.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_01.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_01_Normal.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_01_Normal.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_02.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_02.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_02_Normal.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_02_Normal.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/ClippedFrond.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/ClippedFrond.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/ClippedFrond_Normal.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Broadleaf/ClippedFrond_Normal.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/ConiferBark.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/ConiferBark.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/ConiferBark_Normal.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/ConiferBark_Normal.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/Billboard.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/Billboard.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Branches_0.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Branches_0.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Branches_1.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Branches_1.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Fronds_2.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Fronds_2.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Leaves_3.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Leaves_3.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Branches_0.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Branches_0.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Branches_1.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Branches_1.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Fronds_2.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Fronds_2.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Leaves_3.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Leaves_3.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Branches_0.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Branches_0.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Branches_1.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Branches_1.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Leaves_3.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Leaves_3.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop.spm
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop.spm.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Billboards.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Billboards.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Billboards_Normal.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Billboards_Normal.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Normal.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Normal.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Specular.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Specular.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Dekstop_Spec.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Dekstop_Spec.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Desktop.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Desktop.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Desktop_Normal.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Desktop_Normal.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Thumb_Conifer_Desktop.jpg
+    - Assets/Standard Assets/Environment/SpeedTree/Conifer/Thumb_Conifer_Desktop.jpg.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Detail.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Detail.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Detail_Normal.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Detail_Normal.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Normal.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Normal.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/PalmFrond.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/PalmFrond.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/PalmFrond_Normal.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/PalmFrond_Normal.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/PalmFrond_Spec.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/PalmFrond_Spec.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/Billboard.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/Billboard.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Branches_0.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Branches_0.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Branches_1.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Branches_1.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Fronds_2.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Fronds_2.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Leaves_3.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Leaves_3.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Branches_0.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Branches_0.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Fronds_2.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Fronds_2.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Leaves_3.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Leaves_3.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD2.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD2/Branches_0.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD2/Branches_0.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD2/Fronds_2.mat
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD2/Fronds_2.mat.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop.spm
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop.spm.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards_Normal.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards_Normal.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Normal.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Normal.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Specular.tga
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Specular.tga.meta
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Thumb_Palm_Desktop.jpg
+    - Assets/Standard Assets/Environment/SpeedTree/Palm/Thumb_Palm_Desktop.jpg.meta
+    - Assets/Standard Assets/Environment/TerrainAssets.meta
+    - Assets/Standard Assets/Environment/TerrainAssets/BillboardTextures.meta
+    - Assets/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond01AlbedoAlpha.psd
+    - Assets/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond01AlbedoAlpha.psd.meta
+    - Assets/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond02AlbedoAlpha.psd
+    - Assets/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond02AlbedoAlpha.psd.meta
+    - Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures.meta
+    - Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/CliffAlbedoSpecular.psd
+    - Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/CliffAlbedoSpecular.psd.meta
+    - Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassHillAlbedo.psd
+    - Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassHillAlbedo.psd.meta
+    - Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassRockyAlbedo.psd
+    - Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassRockyAlbedo.psd.meta
+    - Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyAlbedoSpecular.bmp
+    - Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyAlbedoSpecular.bmp.meta
+    - Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyNormals.bmp
+    - Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyNormals.bmp.meta
+    - Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/NewLayer 1.terrainlayer
+    - Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/NewLayer 1.terrainlayer.meta
+    - Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/NewLayer 2.terrainlayer
+    - Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/NewLayer 2.terrainlayer.meta
+    - Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/NewLayer 3.terrainlayer
+    - Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/NewLayer 3.terrainlayer.meta
+    - Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/NewLayer 4.terrainlayer
+    - Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/NewLayer 4.terrainlayer.meta
+    - Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/NewLayer.terrainlayer
+    - Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/NewLayer.terrainlayer.meta
+    - Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/SandAlbedo.psd
+    - Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/SandAlbedo.psd.meta
+    - Assets/Standard Assets/Environment/Water (Basic).meta
+    - Assets/Standard Assets/Environment/Water (Basic)/Materials.meta
+    - Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterBasicDaytime.mat
+    - Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterBasicDaytime.mat.meta
+    - Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterBasicNighttime.mat
+    - Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterBasicNighttime.mat.meta
+    - Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterDefault.mat
+    - Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterDefault.mat.meta
+    - Assets/Standard Assets/Environment/Water (Basic)/Models.meta
+    - Assets/Standard Assets/Environment/Water (Basic)/Models/WaterBasicPlane.fbx
+    - Assets/Standard Assets/Environment/Water (Basic)/Models/WaterBasicPlane.fbx.meta
+    - Assets/Standard Assets/Environment/Water (Basic)/Prefabs.meta
+    - Assets/Standard Assets/Environment/Water (Basic)/Prefabs/WaterBasicDaytime.prefab
+    - Assets/Standard Assets/Environment/Water (Basic)/Prefabs/WaterBasicDaytime.prefab.meta
+    - Assets/Standard Assets/Environment/Water (Basic)/Prefabs/WaterBasicNightime.prefab
+    - Assets/Standard Assets/Environment/Water (Basic)/Prefabs/WaterBasicNightime.prefab.meta
+    - Assets/Standard Assets/Environment/Water (Basic)/Scripts.meta
+    - Assets/Standard Assets/Environment/Water (Basic)/Scripts/WaterBasic.cs
+    - Assets/Standard Assets/Environment/Water (Basic)/Scripts/WaterBasic.cs.meta
+    - Assets/Standard Assets/Environment/Water (Basic)/Shaders.meta
+    - Assets/Standard Assets/Environment/Water (Basic)/Shaders/FXWaterBasic.shader
+    - Assets/Standard Assets/Environment/Water (Basic)/Shaders/FXWaterBasic.shader.meta
+    - Assets/Standard Assets/Environment/Water (Basic)/Textures.meta
+    - Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicDaytimeGradient.psd
+    - Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicDaytimeGradient.psd.meta
+    - Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicNighttimeGradient.psd
+    - Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicNighttimeGradient.psd.meta
+    - Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicNormals.jpg
+    - Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicNormals.jpg.meta
+    - Assets/Standard Assets/Environment/Water.meta
+    - Assets/Standard Assets/Environment/Water/Water.meta
+    - Assets/Standard Assets/Environment/Water/Water/Materials.meta
+    - Assets/Standard Assets/Environment/Water/Water/Materials/WaterPlaneMaterial.mat
+    - Assets/Standard Assets/Environment/Water/Water/Materials/WaterPlaneMaterial.mat.meta
+    - Assets/Standard Assets/Environment/Water/Water/Materials/WaterProDaytime.mat
+    - Assets/Standard Assets/Environment/Water/Water/Materials/WaterProDaytime.mat.meta
+    - Assets/Standard Assets/Environment/Water/Water/Materials/WaterProNighttime.mat
+    - Assets/Standard Assets/Environment/Water/Water/Materials/WaterProNighttime.mat.meta
+    - Assets/Standard Assets/Environment/Water/Water/Models.meta
+    - Assets/Standard Assets/Environment/Water/Water/Models/WaterPlane.fbx
+    - Assets/Standard Assets/Environment/Water/Water/Models/WaterPlane.fbx.meta
+    - Assets/Standard Assets/Environment/Water/Water/Prefabs.meta
+    - Assets/Standard Assets/Environment/Water/Water/Prefabs/WaterProDaytime.prefab
+    - Assets/Standard Assets/Environment/Water/Water/Prefabs/WaterProDaytime.prefab.meta
+    - Assets/Standard Assets/Environment/Water/Water/Prefabs/WaterProNighttime.prefab
+    - Assets/Standard Assets/Environment/Water/Water/Prefabs/WaterProNighttime.prefab.meta
+    - Assets/Standard Assets/Environment/Water/Water/Scripts.meta
+    - Assets/Standard Assets/Environment/Water/Water/Scripts/Displace.cs
+    - Assets/Standard Assets/Environment/Water/Water/Scripts/Displace.cs.meta
+    - Assets/Standard Assets/Environment/Water/Water/Scripts/GerstnerDisplace.cs
+    - Assets/Standard Assets/Environment/Water/Water/Scripts/GerstnerDisplace.cs.meta
+    - Assets/Standard Assets/Environment/Water/Water/Scripts/MeshContainer.cs
+    - Assets/Standard Assets/Environment/Water/Water/Scripts/MeshContainer.cs.meta
+    - Assets/Standard Assets/Environment/Water/Water/Scripts/PlanarReflection.cs
+    - Assets/Standard Assets/Environment/Water/Water/Scripts/PlanarReflection.cs.meta
+    - Assets/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs
+    - Assets/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs.meta
+    - Assets/Standard Assets/Environment/Water/Water/Scripts/Water.cs
+    - Assets/Standard Assets/Environment/Water/Water/Scripts/Water.cs.meta
+    - Assets/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs
+    - Assets/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs.meta
+    - Assets/Standard Assets/Environment/Water/Water/Scripts/WaterTile.cs
+    - Assets/Standard Assets/Environment/Water/Water/Scripts/WaterTile.cs.meta
+    - Assets/Standard Assets/Environment/Water/Water/Shaders.meta
+    - Assets/Standard Assets/Environment/Water/Water/Shaders/FXWaterPro.shader
+    - Assets/Standard Assets/Environment/Water/Water/Shaders/FXWaterPro.shader.meta
+    - Assets/Standard Assets/Environment/Water/Water/Textures.meta
+    - Assets/Standard Assets/Environment/Water/Water/Textures/WaterBump.jpg
+    - Assets/Standard Assets/Environment/Water/Water/Textures/WaterBump.jpg.meta
+    - Assets/Standard Assets/Environment/Water/Water/Textures/WaterFresnel.psd
+    - Assets/Standard Assets/Environment/Water/Water/Textures/WaterFresnel.psd.meta
+    - Assets/Standard Assets/Environment/Water/Water/Textures/WaterProDaytimeGradient.psd
+    - Assets/Standard Assets/Environment/Water/Water/Textures/WaterProDaytimeGradient.psd.meta
+    - Assets/Standard Assets/Environment/Water/Water/Textures/WaterProNighttimeGradient.psd
+    - Assets/Standard Assets/Environment/Water/Water/Textures/WaterProNighttimeGradient.psd.meta
+    - Assets/Standard Assets/Environment/Water/Water4.meta
+    - Assets/Standard Assets/Environment/Water/Water4/Materials.meta
+    - Assets/Standard Assets/Environment/Water/Water4/Materials/OceanPlaneMaterial.mat
+    - Assets/Standard Assets/Environment/Water/Water4/Materials/OceanPlaneMaterial.mat.meta
+    - Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Advanced.mat
+    - Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Advanced.mat.meta
+    - Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Simple.mat
+    - Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Simple.mat.meta
+    - Assets/Standard Assets/Environment/Water/Water4/Models.meta
+    - Assets/Standard Assets/Environment/Water/Water4/Models/OceanPlane.FBX
+    - Assets/Standard Assets/Environment/Water/Water4/Models/OceanPlane.FBX.meta
+    - Assets/Standard Assets/Environment/Water/Water4/Prefabs.meta
+    - Assets/Standard Assets/Environment/Water/Water4/Prefabs/Water4Advanced.prefab
+    - Assets/Standard Assets/Environment/Water/Water4/Prefabs/Water4Advanced.prefab.meta
+    - Assets/Standard Assets/Environment/Water/Water4/Prefabs/Water4Simple.prefab
+    - Assets/Standard Assets/Environment/Water/Water4/Prefabs/Water4Simple.prefab.meta
+    - Assets/Standard Assets/Environment/Water/Water4/Shaders.meta
+    - Assets/Standard Assets/Environment/Water/Water4/Shaders/FXWater4Advanced.shader
+    - Assets/Standard Assets/Environment/Water/Water4/Shaders/FXWater4Advanced.shader.meta
+    - Assets/Standard Assets/Environment/Water/Water4/Shaders/FXWater4Simple.shader
+    - Assets/Standard Assets/Environment/Water/Water4/Shaders/FXWater4Simple.shader.meta
+    - Assets/Standard Assets/Environment/Water/Water4/Shaders/WaterInclude.cginc
+    - Assets/Standard Assets/Environment/Water/Water4/Shaders/WaterInclude.cginc.meta
+    - Assets/Standard Assets/Environment/Water/Water4/Textures.meta
+    - Assets/Standard Assets/Environment/Water/Water4/Textures/NewBrush.brush
+    - Assets/Standard Assets/Environment/Water/Water4/Textures/NewBrush.brush.meta
+    - Assets/Standard Assets/Environment/Water/Water4/Textures/SimpleFoam.png
+    - Assets/Standard Assets/Environment/Water/Water4/Textures/SimpleFoam.png.meta
+    - Assets/Standard Assets/Environment/Water/Water4/Textures/SmallWaves.png
+    - Assets/Standard Assets/Environment/Water/Water4/Textures/SmallWaves.png.meta
+    - Assets/Standard Assets/Fonts.meta
+    - Assets/Standard Assets/Fonts/OpenSans.meta
+    - Assets/Standard Assets/Fonts/OpenSans/License!.txt
+    - Assets/Standard Assets/Fonts/OpenSans/License!.txt.meta
+    - Assets/Standard Assets/Fonts/OpenSans/OpenSansBold.ttf
+    - Assets/Standard Assets/Fonts/OpenSans/OpenSansBold.ttf.meta
+    - Assets/Standard Assets/Fonts/OpenSans/OpenSansLight.ttf
+    - Assets/Standard Assets/Fonts/OpenSans/OpenSansLight.ttf.meta
+    - Assets/Standard Assets/Fonts/OpenSans/OpenSansRegular.ttf
+    - Assets/Standard Assets/Fonts/OpenSans/OpenSansRegular.ttf.meta
+    - Assets/Standard Assets/Fonts/OpenSans/OpenSansSemibold.ttf
+    - Assets/Standard Assets/Fonts/OpenSans/OpenSansSemibold.ttf.meta
+    - Assets/Standard Assets/Fonts/Unipix.ttf
+    - Assets/Standard Assets/Fonts/Unipix.ttf.meta
+    - Assets/Standard Assets/ParticleSystems.meta
+    - Assets/Standard Assets/ParticleSystems/Materials.meta
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleAfterburner.mat
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleAfterburner.mat.meta
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleDuststorm.mat
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleDuststorm.mat.meta
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleFireball.mat
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleFireball.mat.meta
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleFirecloud.mat
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleFirecloud.mat.meta
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleFirework.mat
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleFirework.mat.meta
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleFlameLicks.mat
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleFlameLicks.mat.meta
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleFlames.mat
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleFlames.mat.meta
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleGlow.mat
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleGlow.mat.meta
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleSmokeBlack.mat
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleSmokeBlack.mat.meta
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleSmokeMobile.mat
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleSmokeMobile.mat.meta
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleSmokeVertlit.mat
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleSmokeVertlit.mat.meta
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleSmokeWhite.mat
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleSmokeWhite.mat.meta
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleSpark.mat
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleSpark.mat.meta
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleSplashes.mat
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleSplashes.mat.meta
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleSpray.mat
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleSpray.mat.meta
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleSteam.mat
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleSteam.mat.meta
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleSteamMobile.mat
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleSteamMobile.mat.meta
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleWaterSpray.mat
+    - Assets/Standard Assets/ParticleSystems/Materials/ParticleWaterSpray.mat.meta
+    - Assets/Standard Assets/ParticleSystems/ParticleSystemsGuidelines.txt
+    - Assets/Standard Assets/ParticleSystems/ParticleSystemsGuidelines.txt.meta
+    - Assets/Standard Assets/ParticleSystems/Prefabs.meta
+    - Assets/Standard Assets/ParticleSystems/Prefabs/Afterburner.prefab
+    - Assets/Standard Assets/ParticleSystems/Prefabs/Afterburner.prefab.meta
+    - Assets/Standard Assets/ParticleSystems/Prefabs/DustStorm.prefab
+    - Assets/Standard Assets/ParticleSystems/Prefabs/DustStorm.prefab.meta
+    - Assets/Standard Assets/ParticleSystems/Prefabs/DustStormMobile.prefab
+    - Assets/Standard Assets/ParticleSystems/Prefabs/DustStormMobile.prefab.meta
+    - Assets/Standard Assets/ParticleSystems/Prefabs/Explosion.prefab
+    - Assets/Standard Assets/ParticleSystems/Prefabs/Explosion.prefab.meta
+    - Assets/Standard Assets/ParticleSystems/Prefabs/ExplosionMobile.prefab
+    - Assets/Standard Assets/ParticleSystems/Prefabs/ExplosionMobile.prefab.meta
+    - Assets/Standard Assets/ParticleSystems/Prefabs/FireComplex.prefab
+    - Assets/Standard Assets/ParticleSystems/Prefabs/FireComplex.prefab.meta
+    - Assets/Standard Assets/ParticleSystems/Prefabs/FireMobile.prefab
+    - Assets/Standard Assets/ParticleSystems/Prefabs/FireMobile.prefab.meta
+    - Assets/Standard Assets/ParticleSystems/Prefabs/Fireworks.prefab
+    - Assets/Standard Assets/ParticleSystems/Prefabs/Fireworks.prefab.meta
+    - Assets/Standard Assets/ParticleSystems/Prefabs/Flare.prefab
+    - Assets/Standard Assets/ParticleSystems/Prefabs/Flare.prefab.meta
+    - Assets/Standard Assets/ParticleSystems/Prefabs/FlareMobile.prefab
+    - Assets/Standard Assets/ParticleSystems/Prefabs/FlareMobile.prefab.meta
+    - Assets/Standard Assets/ParticleSystems/Prefabs/Hose.prefab
+    - Assets/Standard Assets/ParticleSystems/Prefabs/Hose.prefab.meta
+    - Assets/Standard Assets/ParticleSystems/Prefabs/HoseMobile.prefab
+    - Assets/Standard Assets/ParticleSystems/Prefabs/HoseMobile.prefab.meta
+    - Assets/Standard Assets/ParticleSystems/Prefabs/Smoke.prefab
+    - Assets/Standard Assets/ParticleSystems/Prefabs/Smoke.prefab.meta
+    - Assets/Standard Assets/ParticleSystems/Prefabs/Steam.prefab
+    - Assets/Standard Assets/ParticleSystems/Prefabs/Steam.prefab.meta
+    - Assets/Standard Assets/ParticleSystems/Prefabs/SteamMobile.prefab
+    - Assets/Standard Assets/ParticleSystems/Prefabs/SteamMobile.prefab.meta
+    - Assets/Standard Assets/ParticleSystems/Prefabs/TyreBurnoutSmoke.prefab
+    - Assets/Standard Assets/ParticleSystems/Prefabs/TyreBurnoutSmoke.prefab.meta
+    - Assets/Standard Assets/ParticleSystems/Prefabs/WildFire.prefab
+    - Assets/Standard Assets/ParticleSystems/Prefabs/WildFire.prefab.meta
+    - Assets/Standard Assets/ParticleSystems/Scripts.meta
+    - Assets/Standard Assets/ParticleSystems/Scripts/AfterburnerPhysicsForce.cs
+    - Assets/Standard Assets/ParticleSystems/Scripts/AfterburnerPhysicsForce.cs.meta
+    - Assets/Standard Assets/ParticleSystems/Scripts/ExplosionFireAndDebris.cs
+    - Assets/Standard Assets/ParticleSystems/Scripts/ExplosionFireAndDebris.cs.meta
+    - Assets/Standard Assets/ParticleSystems/Scripts/ExplosionPhysicsForce.cs
+    - Assets/Standard Assets/ParticleSystems/Scripts/ExplosionPhysicsForce.cs.meta
+    - Assets/Standard Assets/ParticleSystems/Scripts/Explosive.cs
+    - Assets/Standard Assets/ParticleSystems/Scripts/Explosive.cs.meta
+    - Assets/Standard Assets/ParticleSystems/Scripts/ExtinguishableParticleSystem.cs
+    - Assets/Standard Assets/ParticleSystems/Scripts/ExtinguishableParticleSystem.cs.meta
+    - Assets/Standard Assets/ParticleSystems/Scripts/FireLight.cs
+    - Assets/Standard Assets/ParticleSystems/Scripts/FireLight.cs.meta
+    - Assets/Standard Assets/ParticleSystems/Scripts/Hose.cs
+    - Assets/Standard Assets/ParticleSystems/Scripts/Hose.cs.meta
+    - Assets/Standard Assets/ParticleSystems/Scripts/ParticleSystemMultiplier.cs
+    - Assets/Standard Assets/ParticleSystems/Scripts/ParticleSystemMultiplier.cs.meta
+    - Assets/Standard Assets/ParticleSystems/Scripts/SmokeParticles.cs
+    - Assets/Standard Assets/ParticleSystems/Scripts/SmokeParticles.cs.meta
+    - Assets/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs
+    - Assets/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs.meta
+    - Assets/Standard Assets/ParticleSystems/Shaders.meta
+    - Assets/Standard Assets/ParticleSystems/Shaders/PriorityParticleAdd.shader
+    - Assets/Standard Assets/ParticleSystems/Shaders/PriorityParticleAdd.shader.meta
+    - Assets/Standard Assets/ParticleSystems/Shaders/PriorityParticleAddSoft.shader
+    - Assets/Standard Assets/ParticleSystems/Shaders/PriorityParticleAddSoft.shader.meta
+    - Assets/Standard Assets/ParticleSystems/Shaders/PriorityParticleAlpha.shader
+    - Assets/Standard Assets/ParticleSystems/Shaders/PriorityParticleAlpha.shader.meta
+    - Assets/Standard Assets/ParticleSystems/Textures.meta
+    - Assets/Standard Assets/ParticleSystems/Textures/ParticleBokeh.png
+    - Assets/Standard Assets/ParticleSystems/Textures/ParticleBokeh.png.meta
+    - Assets/Standard Assets/ParticleSystems/Textures/ParticleCloudBlack.png
+    - Assets/Standard Assets/ParticleSystems/Textures/ParticleCloudBlack.png.meta
+    - Assets/Standard Assets/ParticleSystems/Textures/ParticleCloudWhite.png
+    - Assets/Standard Assets/ParticleSystems/Textures/ParticleCloudWhite.png.meta
+    - Assets/Standard Assets/ParticleSystems/Textures/ParticleFireballSheet.png
+    - Assets/Standard Assets/ParticleSystems/Textures/ParticleFireballSheet.png.meta
+    - Assets/Standard Assets/ParticleSystems/Textures/ParticleFirecloud.png
+    - Assets/Standard Assets/ParticleSystems/Textures/ParticleFirecloud.png.meta
+    - Assets/Standard Assets/ParticleSystems/Textures/ParticleFlameLickSheet.png
+    - Assets/Standard Assets/ParticleSystems/Textures/ParticleFlameLickSheet.png.meta
+    - Assets/Standard Assets/ParticleSystems/Textures/ParticleFlamesSheet.png
+    - Assets/Standard Assets/ParticleSystems/Textures/ParticleFlamesSheet.png.meta
+    - Assets/Standard Assets/ParticleSystems/Textures/ParticleFlare.png
+    - Assets/Standard Assets/ParticleSystems/Textures/ParticleFlare.png.meta
+    - Assets/Standard Assets/ParticleSystems/Textures/Spark.png
+    - Assets/Standard Assets/ParticleSystems/Textures/Spark.png.meta
+    - Assets/Standard Assets/ParticleSystems/Textures/SplashesFineParticle.png
+    - Assets/Standard Assets/ParticleSystems/Textures/SplashesFineParticle.png.meta
+    - Assets/Standard Assets/ParticleSystems/Textures/SplashesLargeParticle.png
+    - Assets/Standard Assets/ParticleSystems/Textures/SplashesLargeParticle.png.meta
+    - Assets/Standard Assets/PhysicsMaterials.meta
+    - Assets/Standard Assets/PhysicsMaterials/Bouncy.physicmaterial
+    - Assets/Standard Assets/PhysicsMaterials/Bouncy.physicmaterial.meta
+    - Assets/Standard Assets/PhysicsMaterials/Ice.physicmaterial
+    - Assets/Standard Assets/PhysicsMaterials/Ice.physicmaterial.meta
+    - Assets/Standard Assets/PhysicsMaterials/MaxFriction.physicMaterial
+    - Assets/Standard Assets/PhysicsMaterials/MaxFriction.physicMaterial.meta
+    - Assets/Standard Assets/PhysicsMaterials/Metal.physicmaterial
+    - Assets/Standard Assets/PhysicsMaterials/Metal.physicmaterial.meta
+    - Assets/Standard Assets/PhysicsMaterials/Rubber.physicmaterial
+    - Assets/Standard Assets/PhysicsMaterials/Rubber.physicmaterial.meta
+    - Assets/Standard Assets/PhysicsMaterials/Wood.physicmaterial
+    - Assets/Standard Assets/PhysicsMaterials/Wood.physicmaterial.meta
+    - Assets/Standard Assets/PhysicsMaterials/ZeroFriction.physicMaterial
+    - Assets/Standard Assets/PhysicsMaterials/ZeroFriction.physicMaterial.meta
+    - Assets/Standard Assets/Prototyping.meta
+    - Assets/Standard Assets/Prototyping/Materials.meta
+    - Assets/Standard Assets/Prototyping/Materials/NavyGrid.mat
+    - Assets/Standard Assets/Prototyping/Materials/NavyGrid.mat.meta
+    - Assets/Standard Assets/Prototyping/Materials/NavySmooth.mat
+    - Assets/Standard Assets/Prototyping/Materials/NavySmooth.mat.meta
+    - Assets/Standard Assets/Prototyping/Materials/PinkGrid.mat
+    - Assets/Standard Assets/Prototyping/Materials/PinkGrid.mat.meta
+    - Assets/Standard Assets/Prototyping/Materials/PinkSmooth.mat
+    - Assets/Standard Assets/Prototyping/Materials/PinkSmooth.mat.meta
+    - Assets/Standard Assets/Prototyping/Materials/YellowGrid.mat
+    - Assets/Standard Assets/Prototyping/Materials/YellowGrid.mat.meta
+    - Assets/Standard Assets/Prototyping/Materials/YellowSmooth.mat
+    - Assets/Standard Assets/Prototyping/Materials/YellowSmooth.mat.meta
+    - Assets/Standard Assets/Prototyping/Models.meta
+    - Assets/Standard Assets/Prototyping/Models/BlockPrototype04x04x04.fbx
+    - Assets/Standard Assets/Prototyping/Models/BlockPrototype04x04x04.fbx.meta
+    - Assets/Standard Assets/Prototyping/Models/CubePrototype02x02x02.fbx
+    - Assets/Standard Assets/Prototyping/Models/CubePrototype02x02x02.fbx.meta
+    - Assets/Standard Assets/Prototyping/Models/CubePrototype04x04x04.fbx
+    - Assets/Standard Assets/Prototyping/Models/CubePrototype04x04x04.fbx.meta
+    - Assets/Standard Assets/Prototyping/Models/CubePrototype08x08x08.fbx
+    - Assets/Standard Assets/Prototyping/Models/CubePrototype08x08x08.fbx.meta
+    - Assets/Standard Assets/Prototyping/Models/FloorPrototype04x01x04.fbx
+    - Assets/Standard Assets/Prototyping/Models/FloorPrototype04x01x04.fbx.meta
+    - Assets/Standard Assets/Prototyping/Models/FloorPrototype08x01x08.fbx
+    - Assets/Standard Assets/Prototyping/Models/FloorPrototype08x01x08.fbx.meta
+    - Assets/Standard Assets/Prototyping/Models/FloorPrototype64x01x64.fbx
+    - Assets/Standard Assets/Prototyping/Models/FloorPrototype64x01x64.fbx.meta
+    - Assets/Standard Assets/Prototyping/Models/HousePrototype16x16x24.fbx
+    - Assets/Standard Assets/Prototyping/Models/HousePrototype16x16x24.fbx.meta
+    - Assets/Standard Assets/Prototyping/Models/JoinInnerPrototype01x06x01.fbx
+    - Assets/Standard Assets/Prototyping/Models/JoinInnerPrototype01x06x01.fbx.meta
+    - Assets/Standard Assets/Prototyping/Models/JoinMidPrototype04x06x01.fbx
+    - Assets/Standard Assets/Prototyping/Models/JoinMidPrototype04x06x01.fbx.meta
+    - Assets/Standard Assets/Prototyping/Models/JoinOuterPrototype02x06x02.fbx
+    - Assets/Standard Assets/Prototyping/Models/JoinOuterPrototype02x06x02.fbx.meta
+    - Assets/Standard Assets/Prototyping/Models/PickupPrototype01x01x01.fbx
+    - Assets/Standard Assets/Prototyping/Models/PickupPrototype01x01x01.fbx.meta
+    - Assets/Standard Assets/Prototyping/Models/PillarPrototype01x02x01.fbx
+    - Assets/Standard Assets/Prototyping/Models/PillarPrototype01x02x01.fbx.meta
+    - Assets/Standard Assets/Prototyping/Models/PillarPrototype02x08x02.fbx
+    - Assets/Standard Assets/Prototyping/Models/PillarPrototype02x08x02.fbx.meta
+    - Assets/Standard Assets/Prototyping/Models/PlatformPrototype02x01x02.fbx
+    - Assets/Standard Assets/Prototyping/Models/PlatformPrototype02x01x02.fbx.meta
+    - Assets/Standard Assets/Prototyping/Models/PlatformPrototype04x01x04.fbx
+    - Assets/Standard Assets/Prototyping/Models/PlatformPrototype04x01x04.fbx.meta
+    - Assets/Standard Assets/Prototyping/Models/PlatformPrototype08x01x08.fbx
+    - Assets/Standard Assets/Prototyping/Models/PlatformPrototype08x01x08.fbx.meta
+    - Assets/Standard Assets/Prototyping/Models/RampPrototype04x02x02.fbx
+    - Assets/Standard Assets/Prototyping/Models/RampPrototype04x02x02.fbx.meta
+    - Assets/Standard Assets/Prototyping/Models/StepsPrototype04x02x02.fbx
+    - Assets/Standard Assets/Prototyping/Models/StepsPrototype04x02x02.fbx.meta
+    - Assets/Standard Assets/Prototyping/Models/WallPrototype08x08x01.fbx
+    - Assets/Standard Assets/Prototyping/Models/WallPrototype08x08x01.fbx.meta
+    - Assets/Standard Assets/Prototyping/Prefabs.meta
+    - Assets/Standard Assets/Prototyping/Prefabs/BlockPrototype04x04x04.prefab
+    - Assets/Standard Assets/Prototyping/Prefabs/BlockPrototype04x04x04.prefab.meta
+    - Assets/Standard Assets/Prototyping/Prefabs/CubePrototype02x02x02.prefab
+    - Assets/Standard Assets/Prototyping/Prefabs/CubePrototype02x02x02.prefab.meta
+    - Assets/Standard Assets/Prototyping/Prefabs/CubePrototype04x04x04.prefab
+    - Assets/Standard Assets/Prototyping/Prefabs/CubePrototype04x04x04.prefab.meta
+    - Assets/Standard Assets/Prototyping/Prefabs/CubePrototype08x08x08.prefab
+    - Assets/Standard Assets/Prototyping/Prefabs/CubePrototype08x08x08.prefab.meta
+    - Assets/Standard Assets/Prototyping/Prefabs/FloorPrototype04x01x04.prefab
+    - Assets/Standard Assets/Prototyping/Prefabs/FloorPrototype04x01x04.prefab.meta
+    - Assets/Standard Assets/Prototyping/Prefabs/FloorPrototype08x01x08.prefab
+    - Assets/Standard Assets/Prototyping/Prefabs/FloorPrototype08x01x08.prefab.meta
+    - Assets/Standard Assets/Prototyping/Prefabs/FloorPrototype64x01x64.prefab
+    - Assets/Standard Assets/Prototyping/Prefabs/FloorPrototype64x01x64.prefab.meta
+    - Assets/Standard Assets/Prototyping/Prefabs/HousePrototype16x16x24.prefab
+    - Assets/Standard Assets/Prototyping/Prefabs/HousePrototype16x16x24.prefab.meta
+    - Assets/Standard Assets/Prototyping/Prefabs/JoinInnerPrototype01x06x01.prefab
+    - Assets/Standard Assets/Prototyping/Prefabs/JoinInnerPrototype01x06x01.prefab.meta
+    - Assets/Standard Assets/Prototyping/Prefabs/JoinMidPrototype04x06x01.prefab
+    - Assets/Standard Assets/Prototyping/Prefabs/JoinMidPrototype04x06x01.prefab.meta
+    - Assets/Standard Assets/Prototyping/Prefabs/JoinOuterPrototype02x06x02.prefab
+    - Assets/Standard Assets/Prototyping/Prefabs/JoinOuterPrototype02x06x02.prefab.meta
+    - Assets/Standard Assets/Prototyping/Prefabs/PickupPrototype.prefab
+    - Assets/Standard Assets/Prototyping/Prefabs/PickupPrototype.prefab.meta
+    - Assets/Standard Assets/Prototyping/Prefabs/PillarPrototype01x02x01.prefab
+    - Assets/Standard Assets/Prototyping/Prefabs/PillarPrototype01x02x01.prefab.meta
+    - Assets/Standard Assets/Prototyping/Prefabs/PillarPrototype02x08x02.prefab
+    - Assets/Standard Assets/Prototyping/Prefabs/PillarPrototype02x08x02.prefab.meta
+    - Assets/Standard Assets/Prototyping/Prefabs/PlatformPrototype02x01x02.prefab
+    - Assets/Standard Assets/Prototyping/Prefabs/PlatformPrototype02x01x02.prefab.meta
+    - Assets/Standard Assets/Prototyping/Prefabs/PlatformPrototype04x01x04.prefab
+    - Assets/Standard Assets/Prototyping/Prefabs/PlatformPrototype04x01x04.prefab.meta
+    - Assets/Standard Assets/Prototyping/Prefabs/PlatformPrototype08x01x08.prefab
+    - Assets/Standard Assets/Prototyping/Prefabs/PlatformPrototype08x01x08.prefab.meta
+    - Assets/Standard Assets/Prototyping/Prefabs/RampPrototype04x02x02.prefab
+    - Assets/Standard Assets/Prototyping/Prefabs/RampPrototype04x02x02.prefab.meta
+    - Assets/Standard Assets/Prototyping/Prefabs/StepsPrototype04x02x02.prefab
+    - Assets/Standard Assets/Prototyping/Prefabs/StepsPrototype04x02x02.prefab.meta
+    - Assets/Standard Assets/Prototyping/Prefabs/WallPrototype08x08x01.prefab
+    - Assets/Standard Assets/Prototyping/Prefabs/WallPrototype08x08x01.prefab.meta
+    - Assets/Standard Assets/Prototyping/Shaders.meta
+    - Assets/Standard Assets/Prototyping/Shaders/WorldCoordDiffuse.shader
+    - Assets/Standard Assets/Prototyping/Shaders/WorldCoordDiffuse.shader.meta
+    - Assets/Standard Assets/Prototyping/Textures.meta
+    - Assets/Standard Assets/Prototyping/Textures/GridEmissive.png
+    - Assets/Standard Assets/Prototyping/Textures/GridEmissive.png.meta
+    - Assets/Standard Assets/Prototyping/Textures/SwatchMauveAlbedo.png
+    - Assets/Standard Assets/Prototyping/Textures/SwatchMauveAlbedo.png.meta
+    - Assets/Standard Assets/Prototyping/Textures/SwatchNavyAlbedo.png
+    - Assets/Standard Assets/Prototyping/Textures/SwatchNavyAlbedo.png.meta
+    - Assets/Standard Assets/Prototyping/Textures/SwatchNavyDarkAlbedo.png
+    - Assets/Standard Assets/Prototyping/Textures/SwatchNavyDarkAlbedo.png.meta
+    - Assets/Standard Assets/Prototyping/Textures/SwatchOrangeAlbedo.png
+    - Assets/Standard Assets/Prototyping/Textures/SwatchOrangeAlbedo.png.meta
+    - Assets/Standard Assets/Prototyping/Textures/SwatchPinkDAlbedo.png
+    - Assets/Standard Assets/Prototyping/Textures/SwatchPinkDAlbedo.png.meta
+    - Assets/Standard Assets/Prototyping/Textures/SwatchTealAlbedo.png
+    - Assets/Standard Assets/Prototyping/Textures/SwatchTealAlbedo.png.meta
+    - Assets/Standard Assets/Prototyping/Textures/SwatchTurquoiseAlbedo.png
+    - Assets/Standard Assets/Prototyping/Textures/SwatchTurquoiseAlbedo.png.meta
+    - Assets/Standard Assets/Prototyping/Textures/SwatchWhiteAlbedo.png
+    - Assets/Standard Assets/Prototyping/Textures/SwatchWhiteAlbedo.png.meta
+    - Assets/Standard Assets/Prototyping/Textures/SwatchYellowAlbedo.png
+    - Assets/Standard Assets/Prototyping/Textures/SwatchYellowAlbedo.png.meta
+    - Assets/Standard Assets/Utility.meta
+    - Assets/Standard Assets/Utility/ActivateTrigger.cs
+    - Assets/Standard Assets/Utility/ActivateTrigger.cs.meta
+    - Assets/Standard Assets/Utility/AlphaButtonClickMask.cs
+    - Assets/Standard Assets/Utility/AlphaButtonClickMask.cs.meta
+    - Assets/Standard Assets/Utility/AutoMobileShaderSwitch.cs
+    - Assets/Standard Assets/Utility/AutoMobileShaderSwitch.cs.meta
+    - Assets/Standard Assets/Utility/AutoMoveAndRotate.cs
+    - Assets/Standard Assets/Utility/AutoMoveAndRotate.cs.meta
+    - Assets/Standard Assets/Utility/CameraRefocus.cs
+    - Assets/Standard Assets/Utility/CameraRefocus.cs.meta
+    - Assets/Standard Assets/Utility/CurveControlledBob.cs
+    - Assets/Standard Assets/Utility/CurveControlledBob.cs.meta
+    - Assets/Standard Assets/Utility/DragRigidbody.cs
+    - Assets/Standard Assets/Utility/DragRigidbody.cs.meta
+    - Assets/Standard Assets/Utility/DynamicShadowSettings.cs
+    - Assets/Standard Assets/Utility/DynamicShadowSettings.cs.meta
+    - Assets/Standard Assets/Utility/EventSystemChecker.cs
+    - Assets/Standard Assets/Utility/EventSystemChecker.cs.meta
+    - Assets/Standard Assets/Utility/FOVKick.cs
+    - Assets/Standard Assets/Utility/FOVKick.cs.meta
+    - Assets/Standard Assets/Utility/FPSCounter.cs
+    - Assets/Standard Assets/Utility/FPSCounter.cs.meta
+    - Assets/Standard Assets/Utility/FollowTarget.cs
+    - Assets/Standard Assets/Utility/FollowTarget.cs.meta
+    - Assets/Standard Assets/Utility/ForcedReset.cs
+    - Assets/Standard Assets/Utility/ForcedReset.cs.meta
+    - Assets/Standard Assets/Utility/LerpControlledBob.cs
+    - Assets/Standard Assets/Utility/LerpControlledBob.cs.meta
+    - Assets/Standard Assets/Utility/ObjectResetter.cs
+    - Assets/Standard Assets/Utility/ObjectResetter.cs.meta
+    - Assets/Standard Assets/Utility/ParticleSystemDestroyer.cs
+    - Assets/Standard Assets/Utility/ParticleSystemDestroyer.cs.meta
+    - Assets/Standard Assets/Utility/PlatformSpecificContent.cs
+    - Assets/Standard Assets/Utility/PlatformSpecificContent.cs.meta
+    - Assets/Standard Assets/Utility/Prefabs.meta
+    - Assets/Standard Assets/Utility/Prefabs/FramerateCounter.prefab
+    - Assets/Standard Assets/Utility/Prefabs/FramerateCounter.prefab.meta
+    - Assets/Standard Assets/Utility/SimpleActivatorMenu.cs
+    - Assets/Standard Assets/Utility/SimpleActivatorMenu.cs.meta
+    - Assets/Standard Assets/Utility/SimpleMouseRotator.cs
+    - Assets/Standard Assets/Utility/SimpleMouseRotator.cs.meta
+    - Assets/Standard Assets/Utility/SmoothFollow.cs
+    - Assets/Standard Assets/Utility/SmoothFollow.cs.meta
+    - Assets/Standard Assets/Utility/TimedObjectActivator.cs
+    - Assets/Standard Assets/Utility/TimedObjectActivator.cs.meta
+    - Assets/Standard Assets/Utility/TimedObjectDestructor.cs
+    - Assets/Standard Assets/Utility/TimedObjectDestructor.cs.meta
+    - Assets/Standard Assets/Utility/WaypointCircuit.cs
+    - Assets/Standard Assets/Utility/WaypointCircuit.cs.meta
+    - Assets/Standard Assets/Utility/WaypointProgressTracker.cs
+    - Assets/Standard Assets/Utility/WaypointProgressTracker.cs.meta
+    - Assets/Standard Assets/Vehicles.meta
+    - Assets/Standard Assets/Vehicles/Aircraft.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/AircraftGuidelines.txt
+    - Assets/Standard Assets/Vehicles/Aircraft/AircraftGuidelines.txt.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Animation.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Animation/JetGearLower.anim
+    - Assets/Standard Assets/Vehicles/Aircraft/Animation/JetGearLower.anim.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Animation/JetGearLowered.anim
+    - Assets/Standard Assets/Vehicles/Aircraft/Animation/JetGearLowered.anim.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Animation/JetGearRaise.anim
+    - Assets/Standard Assets/Vehicles/Aircraft/Animation/JetGearRaise.anim.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Animation/JetGearRaised.anim
+    - Assets/Standard Assets/Vehicles/Aircraft/Animation/JetGearRaised.anim.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Animation/JetPlane.controller
+    - Assets/Standard Assets/Vehicles/Aircraft/Animation/JetPlane.controller.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Animation/PropGearLower.anim
+    - Assets/Standard Assets/Vehicles/Aircraft/Animation/PropGearLower.anim.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Animation/PropGearLowered.anim
+    - Assets/Standard Assets/Vehicles/Aircraft/Animation/PropGearLowered.anim.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Animation/PropGearRaise.anim
+    - Assets/Standard Assets/Vehicles/Aircraft/Animation/PropGearRaise.anim.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Animation/PropGearRaised.anim
+    - Assets/Standard Assets/Vehicles/Aircraft/Animation/PropGearRaised.anim.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Animation/PropPlane.controller
+    - Assets/Standard Assets/Vehicles/Aircraft/Animation/PropPlane.controller.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Audio.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Audio/FlightWind.wav
+    - Assets/Standard Assets/Vehicles/Aircraft/Audio/FlightWind.wav.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Audio/JetEngine.wav
+    - Assets/Standard Assets/Vehicles/Aircraft/Audio/JetEngine.wav.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Audio/PropellerEngine.wav
+    - Assets/Standard Assets/Vehicles/Aircraft/Audio/PropellerEngine.wav.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Materials.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftFuselageGrey.mat
+    - Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftFuselageGrey.mat.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftFuselageWhite.mat
+    - Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftFuselageWhite.mat.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsJetGrey.mat
+    - Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsJetGrey.mat.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsJetWhite.mat
+    - Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsJetWhite.mat.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellerBlurGrey.mat
+    - Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellerBlurGrey.mat.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellerBlurWhite.mat
+    - Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellerBlurWhite.mat.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellersGrey.mat
+    - Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellersGrey.mat.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellersWhite.mat
+    - Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellersWhite.mat.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Materials/ParticleAfterburner.mat
+    - Assets/Standard Assets/Vehicles/Aircraft/Materials/ParticleAfterburner.mat.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Materials/ParticleContrail.mat
+    - Assets/Standard Assets/Vehicles/Aircraft/Materials/ParticleContrail.mat.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Materials/ParticleJetTrail.mat
+    - Assets/Standard Assets/Vehicles/Aircraft/Materials/ParticleJetTrail.mat.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Models.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftFuselage.fbx
+    - Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftFuselage.fbx.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftWingsJet.fbx
+    - Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftWingsJet.fbx.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftWingsPropeller.fbx
+    - Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftWingsPropeller.fbx.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Prefabs.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftJet.prefab
+    - Assets/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftJet.prefab.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftJetAI.prefab
+    - Assets/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftJetAI.prefab.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftPropeller.prefab
+    - Assets/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftPropeller.prefab.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftPropellerAi.prefab
+    - Assets/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftPropellerAi.prefab.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Scripts.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAiControl.cs
+    - Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAiControl.cs.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAudio.cs
+    - Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAudio.cs.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs
+    - Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs
+    - Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs
+    - Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs
+    - Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl4Axis.cs
+    - Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl4Axis.cs.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Scripts/JetParticleEffect.cs
+    - Assets/Standard Assets/Vehicles/Aircraft/Scripts/JetParticleEffect.cs.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs
+    - Assets/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Textures.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftFuselageNormals.png
+    - Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftFuselageNormals.png.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftFuselageOcclusion.png
+    - Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftFuselageOcclusion.png.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur01GreyAlbedo.png
+    - Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur01GreyAlbedo.png.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur01WhiteAlbedo.png
+    - Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur01WhiteAlbedo.png.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur02GreyAlbedo.png
+    - Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur02GreyAlbedo.png.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur02WhiteAlbedo.png
+    - Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur02WhiteAlbedo.png.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur03GreyAlbedo.png
+    - Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur03GreyAlbedo.png.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur03WhiteAlbedo.png
+    - Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur03WhiteAlbedo.png.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetNormals.png
+    - Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetNormals.png.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetOcclusion.png
+    - Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetOcclusion.png.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsPropellerNormals.png
+    - Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsPropellerNormals.png.meta
+    - Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsPropellerOcclusion.png
+    - Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsPropellerOcclusion.png.meta
+    - Assets/Standard Assets/Vehicles/Car.meta
+    - Assets/Standard Assets/Vehicles/Car/Audio.meta
+    - Assets/Standard Assets/Vehicles/Car/Audio/AccelerationHigh.wav
+    - Assets/Standard Assets/Vehicles/Car/Audio/AccelerationHigh.wav.meta
+    - Assets/Standard Assets/Vehicles/Car/Audio/AccelerationLow.wav
+    - Assets/Standard Assets/Vehicles/Car/Audio/AccelerationLow.wav.meta
+    - Assets/Standard Assets/Vehicles/Car/Audio/DecelerationHigh.wav
+    - Assets/Standard Assets/Vehicles/Car/Audio/DecelerationHigh.wav.meta
+    - Assets/Standard Assets/Vehicles/Car/Audio/DecelerationLow.wav
+    - Assets/Standard Assets/Vehicles/Car/Audio/DecelerationLow.wav.meta
+    - Assets/Standard Assets/Vehicles/Car/Audio/Skid.wav
+    - Assets/Standard Assets/Vehicles/Car/Audio/Skid.wav.meta
+    - Assets/Standard Assets/Vehicles/Car/CarGuidelines.txt
+    - Assets/Standard Assets/Vehicles/Car/CarGuidelines.txt.meta
+    - Assets/Standard Assets/Vehicles/Car/Materials.meta
+    - Assets/Standard Assets/Vehicles/Car/Materials/ParticleBurnout.mat
+    - Assets/Standard Assets/Vehicles/Car/Materials/ParticleBurnout.mat.meta
+    - Assets/Standard Assets/Vehicles/Car/Materials/ParticleSmokeWhite.mat
+    - Assets/Standard Assets/Vehicles/Car/Materials/ParticleSmokeWhite.mat.meta
+    - Assets/Standard Assets/Vehicles/Car/Materials/SkyCarBodyGrey.mat
+    - Assets/Standard Assets/Vehicles/Car/Materials/SkyCarBodyGrey.mat.meta
+    - Assets/Standard Assets/Vehicles/Car/Materials/SkyCarBodyWhite.mat
+    - Assets/Standard Assets/Vehicles/Car/Materials/SkyCarBodyWhite.mat.meta
+    - Assets/Standard Assets/Vehicles/Car/Materials/SkyCarLightCoversGrey.mat
+    - Assets/Standard Assets/Vehicles/Car/Materials/SkyCarLightCoversGrey.mat.meta
+    - Assets/Standard Assets/Vehicles/Car/Materials/SkyCarLightCoversWhite.mat
+    - Assets/Standard Assets/Vehicles/Car/Materials/SkyCarLightCoversWhite.mat.meta
+    - Assets/Standard Assets/Vehicles/Car/Materials/SkyCarLightGlows.mat
+    - Assets/Standard Assets/Vehicles/Car/Materials/SkyCarLightGlows.mat.meta
+    - Assets/Standard Assets/Vehicles/Car/Materials/SkyCarWheelGrey.mat
+    - Assets/Standard Assets/Vehicles/Car/Materials/SkyCarWheelGrey.mat.meta
+    - Assets/Standard Assets/Vehicles/Car/Materials/SkyCarWheelWhite.mat
+    - Assets/Standard Assets/Vehicles/Car/Materials/SkyCarWheelWhite.mat.meta
+    - Assets/Standard Assets/Vehicles/Car/Materials/TrailSkid.mat
+    - Assets/Standard Assets/Vehicles/Car/Materials/TrailSkid.mat.meta
+    - Assets/Standard Assets/Vehicles/Car/Models.meta
+    - Assets/Standard Assets/Vehicles/Car/Models/SkyCar.fbx
+    - Assets/Standard Assets/Vehicles/Car/Models/SkyCar.fbx.meta
+    - Assets/Standard Assets/Vehicles/Car/Prefabs.meta
+    - Assets/Standard Assets/Vehicles/Car/Prefabs/Car.prefab
+    - Assets/Standard Assets/Vehicles/Car/Prefabs/Car.prefab.meta
+    - Assets/Standard Assets/Vehicles/Car/Prefabs/CarWaypointBased.prefab
+    - Assets/Standard Assets/Vehicles/Car/Prefabs/CarWaypointBased.prefab.meta
+    - Assets/Standard Assets/Vehicles/Car/Prefabs/SkidTrail.prefab
+    - Assets/Standard Assets/Vehicles/Car/Prefabs/SkidTrail.prefab.meta
+    - Assets/Standard Assets/Vehicles/Car/Scripts.meta
+    - Assets/Standard Assets/Vehicles/Car/Scripts/BrakeLight.cs
+    - Assets/Standard Assets/Vehicles/Car/Scripts/BrakeLight.cs.meta
+    - Assets/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs
+    - Assets/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs.meta
+    - Assets/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs
+    - Assets/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs.meta
+    - Assets/Standard Assets/Vehicles/Car/Scripts/CarController.cs
+    - Assets/Standard Assets/Vehicles/Car/Scripts/CarController.cs.meta
+    - Assets/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs
+    - Assets/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs.meta
+    - Assets/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs
+    - Assets/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs.meta
+    - Assets/Standard Assets/Vehicles/Car/Scripts/Mudguard.cs
+    - Assets/Standard Assets/Vehicles/Car/Scripts/Mudguard.cs.meta
+    - Assets/Standard Assets/Vehicles/Car/Scripts/SkidTrail.cs
+    - Assets/Standard Assets/Vehicles/Car/Scripts/SkidTrail.cs.meta
+    - Assets/Standard Assets/Vehicles/Car/Scripts/Suspension.cs
+    - Assets/Standard Assets/Vehicles/Car/Scripts/Suspension.cs.meta
+    - Assets/Standard Assets/Vehicles/Car/Scripts/WheelEffects.cs
+    - Assets/Standard Assets/Vehicles/Car/Scripts/WheelEffects.cs.meta
+    - Assets/Standard Assets/Vehicles/Car/Shaders.meta
+    - Assets/Standard Assets/Vehicles/Car/Shaders/DiffuseReflectiveShader.shader
+    - Assets/Standard Assets/Vehicles/Car/Shaders/DiffuseReflectiveShader.shader.meta
+    - Assets/Standard Assets/Vehicles/Car/Shaders/ReflectiveDiffuseSpec.shader
+    - Assets/Standard Assets/Vehicles/Car/Shaders/ReflectiveDiffuseSpec.shader.meta
+    - Assets/Standard Assets/Vehicles/Car/Shaders/ReflectiveDiffuseSpecTransp.shader
+    - Assets/Standard Assets/Vehicles/Car/Shaders/ReflectiveDiffuseSpecTransp.shader.meta
+    - Assets/Standard Assets/Vehicles/Car/Textures.meta
+    - Assets/Standard Assets/Vehicles/Car/Textures/ParticleCloudWhite.png
+    - Assets/Standard Assets/Vehicles/Car/Textures/ParticleCloudWhite.png.meta
+    - Assets/Standard Assets/Vehicles/Car/Textures/SkidTrailAlbedo.png
+    - Assets/Standard Assets/Vehicles/Car/Textures/SkidTrailAlbedo.png.meta
+    - Assets/Standard Assets/Vehicles/Car/Textures/SkyCarBodyNormals.png
+    - Assets/Standard Assets/Vehicles/Car/Textures/SkyCarBodyNormals.png.meta
+    - Assets/Standard Assets/Vehicles/Car/Textures/SkyCarBodyOcclusion.png
+    - Assets/Standard Assets/Vehicles/Car/Textures/SkyCarBodyOcclusion.png.meta
+    - Assets/Standard Assets/Vehicles/Car/Textures/SkyCarLightsGlowAlpha.png
+    - Assets/Standard Assets/Vehicles/Car/Textures/SkyCarLightsGlowAlpha.png.meta
+    - Assets/Standard Assets/Vehicles/Car/Textures/SkyCarWheelNormals.png
+    - Assets/Standard Assets/Vehicles/Car/Textures/SkyCarWheelNormals.png.meta
+    - Assets/Standard Assets/Vehicles/Car/Textures/SkyCarWheelOcclusion.png
+    - Assets/Standard Assets/Vehicles/Car/Textures/SkyCarWheelOcclusion.png.meta
+    - Assets/TerrainData_84dacfe0-fd38-4b04-9e11-aa6c97bcbcc6.asset
+    - Assets/TerrainData_84dacfe0-fd38-4b04-9e11-aa6c97bcbcc6.asset.meta
+    - Assets/TerrainData_a1631156-6205-4ce5-9812-bc140586f606.asset
+    - Assets/TerrainData_a1631156-6205-4ce5-9812-bc140586f606.asset.meta
+    - Assets/TerrainData_d14f6ffa-6575-4404-abab-265dda7f050f.asset
+    - Assets/TerrainData_d14f6ffa-6575-4404-abab-265dda7f050f.asset.meta
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc
+    - Assets/TileableBricksWall.meta
+    - Assets/TileableBricksWall/Materials.meta
+    - Assets/TileableBricksWall/Materials/Bricks_01_mat.mat
+    - Assets/TileableBricksWall/Materials/Bricks_01_mat.mat.meta
+    - Assets/TileableBricksWall/Materials/Bricks_01_mat2.mat
+    - Assets/TileableBricksWall/Materials/Bricks_01_mat2.mat.meta
+    - Assets/TileableBricksWall/Textures.meta
+    - Assets/TileableBricksWall/Textures/Bricks_diffuse.TGA
+    - Assets/TileableBricksWall/Textures/Bricks_diffuse.TGA.meta
+    - Assets/TileableBricksWall/Textures/Bricks_gloss.TGA
+    - Assets/TileableBricksWall/Textures/Bricks_gloss.TGA.meta
+    - Assets/TileableBricksWall/Textures/Bricks_normal.TGA
+    - Assets/TileableBricksWall/Textures/Bricks_normal.TGA.meta
+    - Assets/TileableBricksWall/Textures/Bricks_specular.TGA
+    - Assets/TileableBricksWall/Textures/Bricks_specular.TGA.meta
+    - Assets/TileableBricksWall/Textures/Height_map.TGA
+    - Assets/TileableBricksWall/Textures/Height_map.TGA.meta
+    - Assets/Urban_building.meta
+    - Assets/Urban_building/Materials.meta
+    - Assets/Urban_building/Materials/urban_building_ window_01_mat.mat
+    - Assets/Urban_building/Materials/urban_building_ window_01_mat.mat.meta
+    - Assets/Urban_building/Materials/urban_building_ window_02_mat.mat
+    - Assets/Urban_building/Materials/urban_building_ window_02_mat.mat.meta
+    - Assets/Urban_building/Materials/urban_building_base_mat.mat
+    - Assets/Urban_building/Materials/urban_building_base_mat.mat.meta
+    - Assets/Urban_building/Materials/urban_building_doors_mat.mat
+    - Assets/Urban_building/Materials/urban_building_doors_mat.mat.meta
+    - Assets/Urban_building/Materials/urban_building_exterior_details_mat.mat
+    - Assets/Urban_building/Materials/urban_building_exterior_details_mat.mat.meta
+    - Assets/Urban_building/Materials/urban_building_wall_brick_mat.mat
+    - Assets/Urban_building/Materials/urban_building_wall_brick_mat.mat.meta
+    - Assets/Urban_building/Materials/urban_building_wall_white_roof_mat.mat
+    - Assets/Urban_building/Materials/urban_building_wall_white_roof_mat.mat.meta
+    - Assets/Urban_building/Textures.meta
+    - Assets/Urban_building/Textures/urban_building_urban_building_ window_01_mat_AlbedoTransparency.png
+    - Assets/Urban_building/Textures/urban_building_urban_building_ window_01_mat_AlbedoTransparency.png.meta
+    - Assets/Urban_building/Textures/urban_building_urban_building_ window_01_mat_MetallicSmoothness.png
+    - Assets/Urban_building/Textures/urban_building_urban_building_ window_01_mat_MetallicSmoothness.png.meta
+    - Assets/Urban_building/Textures/urban_building_urban_building_ window_01_mat_Normal.png
+    - Assets/Urban_building/Textures/urban_building_urban_building_ window_01_mat_Normal.png.meta
+    - Assets/Urban_building/Textures/urban_building_urban_building_ window_02_mat_AlbedoTransparency.png
+    - Assets/Urban_building/Textures/urban_building_urban_building_ window_02_mat_AlbedoTransparency.png.meta
+    - Assets/Urban_building/Textures/urban_building_urban_building_ window_02_mat_MetallicSmoothness.png
+    - Assets/Urban_building/Textures/urban_building_urban_building_ window_02_mat_MetallicSmoothness.png.meta
+    - Assets/Urban_building/Textures/urban_building_urban_building_ window_02_mat_Normal.png
+    - Assets/Urban_building/Textures/urban_building_urban_building_ window_02_mat_Normal.png.meta
+    - Assets/Urban_building/Textures/urban_building_urban_building_base_mat_AlbedoTransparency.png
+    - Assets/Urban_building/Textures/urban_building_urban_building_base_mat_AlbedoTransparency.png.meta
+    - Assets/Urban_building/Textures/urban_building_urban_building_base_mat_MetallicSmoothness.png
+    - Assets/Urban_building/Textures/urban_building_urban_building_base_mat_MetallicSmoothness.png.meta
+    - Assets/Urban_building/Textures/urban_building_urban_building_base_mat_Normal.png
+    - Assets/Urban_building/Textures/urban_building_urban_building_base_mat_Normal.png.meta
+    - Assets/Urban_building/Textures/urban_building_urban_building_doors_mat_AlbedoTransparency.png
+    - Assets/Urban_building/Textures/urban_building_urban_building_doors_mat_AlbedoTransparency.png.meta
+    - Assets/Urban_building/Textures/urban_building_urban_building_doors_mat_MetallicSmoothness.png
+    - Assets/Urban_building/Textures/urban_building_urban_building_doors_mat_MetallicSmoothness.png.meta
+    - Assets/Urban_building/Textures/urban_building_urban_building_doors_mat_Normal.png
+    - Assets/Urban_building/Textures/urban_building_urban_building_doors_mat_Normal.png.meta
+    - Assets/Urban_building/Textures/urban_building_urban_building_exterior_details_mat_AlbedoTransparency.png
+    - Assets/Urban_building/Textures/urban_building_urban_building_exterior_details_mat_AlbedoTransparency.png.meta
+    - Assets/Urban_building/Textures/urban_building_urban_building_exterior_details_mat_MetallicSmoothness.png
+    - Assets/Urban_building/Textures/urban_building_urban_building_exterior_details_mat_MetallicSmoothness.png.meta
+    - Assets/Urban_building/Textures/urban_building_urban_building_exterior_details_mat_Normal.png
+    - Assets/Urban_building/Textures/urban_building_urban_building_exterior_details_mat_Normal.png.meta
+    - Assets/Urban_building/Textures/urban_building_urban_building_wall_brick_mat_AlbedoTransparency.png
+    - Assets/Urban_building/Textures/urban_building_urban_building_wall_brick_mat_AlbedoTransparency.png.meta
+    - Assets/Urban_building/Textures/urban_building_urban_building_wall_brick_mat_MetallicSmoothness.png
+    - Assets/Urban_building/Textures/urban_building_urban_building_wall_brick_mat_MetallicSmoothness.png.meta
+    - Assets/Urban_building/Textures/urban_building_urban_building_wall_brick_mat_Normal.png
+    - Assets/Urban_building/Textures/urban_building_urban_building_wall_brick_mat_Normal.png.meta
+    - Assets/Urban_building/Textures/urban_building_urban_building_wall_white_roof_mat_AlbedoTransparency.png
+    - Assets/Urban_building/Textures/urban_building_urban_building_wall_white_roof_mat_AlbedoTransparency.png.meta
+    - Assets/Urban_building/Textures/urban_building_urban_building_wall_white_roof_mat_MetallicSmoothness.png
+    - Assets/Urban_building/Textures/urban_building_urban_building_wall_white_roof_mat_MetallicSmoothness.png.meta
+    - Assets/Urban_building/Textures/urban_building_urban_building_wall_white_roof_mat_Normal.png
+    - Assets/Urban_building/Textures/urban_building_urban_building_wall_white_roof_mat_Normal.png.meta
+    - Assets/Urban_building/Urban_building_demoscene.unity
+    - Assets/Urban_building/Urban_building_demoscene.unity.meta
+    - Assets/Urban_building/urban_building.FBX
+    - Assets/Urban_building/urban_building.FBX.meta
+    - Assets/Urban_building/urban_building_prefab.prefab
+    - Assets/Urban_building/urban_building_prefab.prefab.meta
+    - Assets/Vatnick.meta
+    - Assets/Vatnick/Material.meta
+    - Assets/Vatnick/Material/Textures.meta
+    - Assets/Vatnick/Material/Textures/Ground.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Displacement.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Displacement/woodPlanks_bare01_disp.png
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Displacement/woodPlanks_bare01_disp.png.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Displacement/woodPlanks_bare02_disp.png
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Displacement/woodPlanks_bare02_disp.png.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Displacement/woodPlanks_bare03_disp.png
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Displacement/woodPlanks_bare03_disp.png.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Displacement/woodPlanks_dirty01_disp.png
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Displacement/woodPlanks_dirty01_disp.png.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Displacement/woodPlanks_dirty02_disp.png
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Displacement/woodPlanks_dirty02_disp.png.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Bumped.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Bumped/woodPlanks_bare01_bumped.mat
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Bumped/woodPlanks_bare01_bumped.mat.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Bumped/woodPlanks_bare02_bumped.mat
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Bumped/woodPlanks_bare02_bumped.mat.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Bumped/woodPlanks_bare03_bumped.mat
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Bumped/woodPlanks_bare03_bumped.mat.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Bumped/woodPlanks_dirty01_bumped.mat
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Bumped/woodPlanks_dirty01_bumped.mat.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Bumped/woodPlanks_dirty02_bumped.mat
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Bumped/woodPlanks_dirty02_bumped.mat.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Diffuse.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Diffuse/woodPlanks_bare01.mat
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Diffuse/woodPlanks_bare01.mat.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Diffuse/woodPlanks_bare02.mat
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Diffuse/woodPlanks_bare02.mat.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Diffuse/woodPlanks_bare03.mat
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Diffuse/woodPlanks_bare03.mat.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Diffuse/woodPlanks_dirty01.mat
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Diffuse/woodPlanks_dirty01.mat.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Diffuse/woodPlanks_dirty02.mat
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Diffuse/woodPlanks_dirty02.mat.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Parallax.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Parallax/woodPlanks_bare01_parallax.mat
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Parallax/woodPlanks_bare01_parallax.mat.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Parallax/woodPlanks_bare02_parallax.mat
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Parallax/woodPlanks_bare02_parallax.mat.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Parallax/woodPlanks_bare03_parallax.mat
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Parallax/woodPlanks_bare03_parallax.mat.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Parallax/woodPlanks_dirty01_parallax.mat
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Parallax/woodPlanks_dirty01_parallax.mat.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Parallax/woodPlanks_dirty02_parallax.mat
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/Parallax/woodPlanks_dirty02_parallax.mat.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/woodPlanks_bare01.mat
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Materials/woodPlanks_bare01.mat.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Normals.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Normals/woodPlanks_bare01_normals.png
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Normals/woodPlanks_bare01_normals.png.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Normals/woodPlanks_bare02_normals.png
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Normals/woodPlanks_bare02_normals.png.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Normals/woodPlanks_bare03_normals.png
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Normals/woodPlanks_bare03_normals.png.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Normals/woodPlanks_dirty01_normals.png
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Normals/woodPlanks_dirty01_normals.png.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Normals/woodPlanks_dirty02_normals.png
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Normals/woodPlanks_dirty02_normals.png.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Speculars.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Speculars/woodPlanks_bare01_spec.png
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Speculars/woodPlanks_bare01_spec.png.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Speculars/woodPlanks_bare02_spec.png
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Speculars/woodPlanks_bare02_spec.png.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Speculars/woodPlanks_bare03_spec.png
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Speculars/woodPlanks_bare03_spec.png.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Speculars/woodPlanks_dirty01_spec.png
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Speculars/woodPlanks_dirty01_spec.png.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Speculars/woodPlanks_dirty02_spec.png
+    - Assets/Vatnick/Material/Textures/Ground/Floors/Speculars/woodPlanks_dirty02_spec.png.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/woodPlanks_bare01.png
+    - Assets/Vatnick/Material/Textures/Ground/Floors/woodPlanks_bare01.png.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/woodPlanks_bare02S.png
+    - Assets/Vatnick/Material/Textures/Ground/Floors/woodPlanks_bare02S.png.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/woodPlanks_bare03.png
+    - Assets/Vatnick/Material/Textures/Ground/Floors/woodPlanks_bare03.png.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/woodPlanks_dirty01.png
+    - Assets/Vatnick/Material/Textures/Ground/Floors/woodPlanks_dirty01.png.meta
+    - Assets/Vatnick/Material/Textures/Ground/Floors/woodPlanks_dirty02.png
+    - Assets/Vatnick/Material/Textures/Ground/Floors/woodPlanks_dirty02.png.meta
+    - Assets/Village.meta
+    - Assets/Village/Farm.meta
+    - Assets/Village/Farm/WaterTower.meta
+    - Assets/Village/Farm/WaterTower/Materials.meta
+    - Assets/Village/Farm/WaterTower/Materials/Metall_Tile.mat
+    - Assets/Village/Farm/WaterTower/Materials/Metall_Tile.mat.meta
+    - Assets/Village/Farm/WaterTower/Materials/Tower.mat
+    - Assets/Village/Farm/WaterTower/Materials/Tower.mat.meta
+    - Assets/Village/Farm/WaterTower/Tower.fbm.meta
+    - Assets/Village/Farm/WaterTower/Tower.fbx
+    - Assets/Village/Farm/WaterTower/Tower.fbx.meta
+    - Assets/Village/Farm/WaterTower/t.unity
+    - Assets/Village/Farm/WaterTower/t.unity.meta
+    - Assets/Village/Farm/WaterTower/uv.png
+    - Assets/Village/Farm/WaterTower/uv.png.meta
+    - Assets/rotator.cs
+    - Assets/rotator.cs.meta
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/TagManager.asset
+    - 
+    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
